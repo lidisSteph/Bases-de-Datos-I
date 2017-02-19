@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="70FBB139-7950-03E6-5E88-CE7A891ED5E3" name="TBL_TIPO_ESTUDIANTE">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:47:02 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_ESTUDIANTE" id="64F02DBE-14FE-3A59-A7BD-96E3F76AF473">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:47:45 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_ESTUDIANTE" id="DAE3FFB3-CFA3-9F48-8340-2A90A7D5A8CE">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:47:45 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD3589B3-C73F-5740-5CED-34AC61EE2986" name="TBL_TIPO_ESTUDIANTE_PK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:47:51 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64F02DBE-14FE-3A59-A7BD-96E3F76AF473"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

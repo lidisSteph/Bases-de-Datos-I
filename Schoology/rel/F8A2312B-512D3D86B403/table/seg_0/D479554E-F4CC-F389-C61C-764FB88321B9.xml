@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D479554E-F4CC-F389-C61C-764FB88321B9" name="TBL_ESTUDIANTE">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:53:46 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTUDIANTE" id="A0FB6163-5B13-C3D1-1BA2-4F7E7673E955">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:54:36 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="86B5AD74-78A9-EE5B-2615-FC62CB7C41FE" referredColumn="5299E15C-ECBF-36E5-E11D-B0DF0F495FEE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48DC0C9F-A49C-C8D7-8E95-5B77BFA527C9" name="TBL_ESTUDIANTE_PK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:54:59 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0FB6163-5B13-C3D1-1BA2-4F7E7673E955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13B4706E-CE41-E8A4-803A-91DBD24DAD5B" name="TBL_ESTUDIANTE_TBL_USUARIOS_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:54:36 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0FB6163-5B13-C3D1-1BA2-4F7E7673E955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B21035B5-690A-8434-8C01-2AF123E5AE7D" name="TBL_USUARIOS">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 16:50:00 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="5299E15C-ECBF-36E5-E11D-B0DF0F495FEE">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:44:54 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_GENERO" id="CBF9B524-D73F-2826-9635-B8A2BE89AA40">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:52:21 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B0C2F0A-92E5-B91B-7349-C2F9AEE90772" referredColumn="69A4781F-990A-FB56-243B-F93F96B5270B"/>
+</associations>
+</Column>
+<Column name="CODIGO_TIPO_ESTUDIANTE" id="0F73256A-7083-74E1-121A-5E76E03ED0CE">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:52:40 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93CE2FEF-B888-7EC6-804E-A6BDB458C555" referredColumn="64F02DBE-14FE-3A59-A7BD-96E3F76AF473"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="0CC93796-2E1E-F2E9-C745-7BF30E6684C6">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:44:54 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO" id="A7B9C8F2-55B5-3676-5A67-BEE6DE42C5EF">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ELECTRONICO" id="6B6761E1-C892-9D45-15F8-FB45B9D22DBC">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASENA" id="90B5FA17-CC52-F9D2-86E5-43B7040647CC">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FOTO_PERFIL" id="0FC4E8FF-13DE-665A-3D65-B4BE0A1DF962">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BIOGRAFIA" id="97E5FC1A-C0B2-265D-7AD9-C45A33AABA6A">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACTIVIDADES" id="193FB2B5-B4F0-C65E-6D98-9BB62FA6268F">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INTERESES" id="CD89CCF4-3745-8197-F917-8071521F29A4">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="C9ED1131-8A1D-F3C5-CC64-E7F5B111FC81">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SITIO_WEB" id="41DC5EF0-064A-9633-6F57-76FE593B4136">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="8763B52B-6A3F-9079-2EB8-8B741E92E767">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:46:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="FBE0AA79-F002-3157-131E-B42279B60D69">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:54:09 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_USUARIO" id="A25D845E-16EA-8B36-1990-C1543A1D8995">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:55:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="034D805E-3359-3CE0-D0FF-8938090161E6" name="TBL_USUARIOS_PK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:44:54 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5299E15C-ECBF-36E5-E11D-B0DF0F495FEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F74BA87D-FF0E-8E9D-786A-029D29641431" name="TBL_USUARIOS_TBL_GENERO_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:52:21 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBF9B524-D73F-2826-9635-B8A2BE89AA40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54FF9572-8A16-7501-AD3D-4BEE9161E771" name="TBL_USUARIOS_TBL_TIPO_ESTUDIANTE_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:52:40 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F73256A-7083-74E1-121A-5E76E03ED0CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

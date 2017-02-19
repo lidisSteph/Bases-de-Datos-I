@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E61735E4-C3B7-2FEB-7704-93A42F41C0DB" name="TBL_INSTRUCTORES">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:57:52 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_USUARIO" id="3A6E92A8-ECA6-F39E-2C4A-AF2956F41A73">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:59:13 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14F4BC94-67DC-37AC-E592-EC4CA23A1EA3" referredColumn="5299E15C-ECBF-36E5-E11D-B0DF0F495FEE"/>
+</associations>
+</Column>
+<Column name="MATERIAS_IMPARTIDAS" id="1B804626-FA48-0747-8B8D-B4C9AB3A606A">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:58:49 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NIVELES_ENSENADOS" id="D7F49843-6066-29DB-B746-1683446794BF">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:58:49 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO" id="48806E74-9DC0-B37A-8428-23F71F31347F">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:58:49 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BBB81C0-59AC-949D-8363-639AF8865E79" name="TBL_INSTRUCTORES_PK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 18:04:04 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A6E92A8-ECA6-F39E-2C4A-AF2956F41A73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE8B4EDF-E25C-5DAC-2BE8-C35C0F6D40BB" name="TBL_INSTRUCTORES_TBL_USUARIOS_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-19 17:59:13 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A6E92A8-ECA6-F39E-2C4A-AF2956F41A73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
