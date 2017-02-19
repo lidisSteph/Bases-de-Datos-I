@@ -6,4 +6,33 @@
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Column_1" id="04E7214D-5727-DBBF-6F25-7DD755570BF3">
+<createdBy>natye</createdBy>
+<createdTime>2017-02-19 22:02:36 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_2" id="ED7521D2-EDCD-199D-2AB4-7DB0F2CB60CB">
+<createdBy>natye</createdBy>
+<createdTime>2017-02-19 22:02:36 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Column_3" id="621BEB05-7426-FDA2-33A9-CFF61DE45998">
+<createdBy>natye</createdBy>
+<createdTime>2017-02-19 22:02:36 UTC</createdTime>
+<ownerDesignName>Schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
 </Table>
