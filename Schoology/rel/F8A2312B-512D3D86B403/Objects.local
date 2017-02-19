@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="Table" objectID="3C71E312-48C8-D8D1-C5D3-0E93B8998245" name="TABLE_10" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8A2312B-FB20-0B65-7FC6-512D3D86B403" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="3C71E312-48C8-D8D1-C5D3-0E93B8998245" name="TBL_CURSOS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8A2312B-FB20-0B65-7FC6-512D3D86B403" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="D479554E-F4CC-F389-C61C-764FB88321B9" name="TBL_ESTUDIANTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8A2312B-FB20-0B65-7FC6-512D3D86B403" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="99121415-0AE7-DAF7-E153-6F4C306E90D6" name="TBL_GENERO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8A2312B-FB20-0B65-7FC6-512D3D86B403" propertySourceId="" propertyTargetId=""/>
    <object objectType="Table" objectID="4FCBC78D-150F-F5C2-54AA-E1B73C48ACEB" name="TBL_HIJOS_X_PADRES" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F8A2312B-FB20-0B65-7FC6-512D3D86B403" propertySourceId="" propertyTargetId=""/>
