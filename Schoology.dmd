@@ -1,8 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Schoology" id="12B6DFD2-3AA9-3351-9178-D48737FAF271" version="3.5">
-<createdBy>Gissel Lanza</createdBy>
-<createdTime>2017-02-19 15:53:54 UTC</createdTime>
-<ownerDesignName>Schoology</ownerDesignName>
-<capitalNames>false</capitalNames>
-<designId>12B6DFD2-3AA9-3351-9178-D48737FAF271</designId>
-</OSDM_Design>

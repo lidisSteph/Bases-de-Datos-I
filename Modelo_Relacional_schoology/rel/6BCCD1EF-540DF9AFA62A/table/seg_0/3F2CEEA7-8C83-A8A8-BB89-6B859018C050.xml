@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3F2CEEA7-8C83-A8A8-BB89-6B859018C050" name="TBL_PRUEBAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:06:17 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_33</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PRUEBA" id="7D9B53AF-0CA0-5AE7-F812-ABEA87F3CB6A">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:07:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="792FF2B3-971C-958E-D895-4BF7E1A13D0E" referredColumn="A09E2382-77C2-742A-FB92-F9ADE1DE2E90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="745F7799-3DC2-031A-8E9B-8852F23051F1" name="TBL_PRUEBAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:10:54 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9B53AF-0CA0-5AE7-F812-ABEA87F3CB6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E45CB2E4-487F-9EC6-63A5-39C865333BBE" name="TBL_PRUEBAS_TBL_PUBLICACIONES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:07:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D9B53AF-0CA0-5AE7-F812-ABEA87F3CB6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

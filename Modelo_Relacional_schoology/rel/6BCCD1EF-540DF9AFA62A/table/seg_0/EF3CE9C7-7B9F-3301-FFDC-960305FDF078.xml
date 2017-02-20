@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF3CE9C7-7B9F-3301-FFDC-960305FDF078" name="TBL_PADRE">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:13:16 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PADRE" id="0E4330CB-A3E1-D9A0-7377-AED63ED2BD56">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:44:54 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C09046CB-6BC2-A708-B61A-889D96139C3A" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+</associations>
+</Column>
+<Column name="PRIMER_NOMBRE_PREFERIDO" id="B02D3080-7B1C-E2D8-6EEE-06D45A43A182">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:45:21 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC6A6B25-E10E-BFAC-8F3E-AB0E9B8DD128" name="TBL_PADRE_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:45:21 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E4330CB-A3E1-D9A0-7377-AED63ED2BD56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11BD4855-0F58-64D8-F28B-D39ABBB3C49F" name="TBL_PADRE_TBL_USUARIO_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:44:54 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E4330CB-A3E1-D9A0-7377-AED63ED2BD56"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

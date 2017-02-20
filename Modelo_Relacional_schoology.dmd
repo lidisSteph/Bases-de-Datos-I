@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Modelo_Relacional_schoology" id="095408F5-7DF8-C165-3D94-66EDB5165330" version="3.5">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:07:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>095408F5-7DF8-C165-3D94-66EDB5165330</designId>
+</OSDM_Design>

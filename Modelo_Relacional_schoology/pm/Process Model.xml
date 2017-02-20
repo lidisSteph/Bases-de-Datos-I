@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="196F073A-FD56-2E02-4526-1888FD4B022D">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:07:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

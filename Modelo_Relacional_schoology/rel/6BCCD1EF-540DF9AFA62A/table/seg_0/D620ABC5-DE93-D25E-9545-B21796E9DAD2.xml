@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D620ABC5-DE93-D25E-9545-B21796E9DAD2" name="TBL_AREAS_TEMATICAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:23:39 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_AREA_TEMATICA" id="FB527167-8E5B-2F32-A0C6-467DEE51CF36">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:24:01 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_AREA_TEMATICA" id="ECD22859-E169-D60C-2EF0-1001C332DFBD">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:24:01 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD2CDB21-4395-B346-2838-9FD7F1C83499" name="TBL_AREAS_TEMATICAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:24:05 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB527167-8E5B-2F32-A0C6-467DEE51CF36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

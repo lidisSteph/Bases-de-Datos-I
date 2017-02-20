@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6B755EB0-A969-AA1F-723C-A64A72CEE0D4" name="TBL_ZONAS_HORARIAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:28:41 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ZONA_HORARIA" id="8BF5D34C-5D46-F881-E5CA-8DFE9488CA66">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:39:15 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ZONA_HORARIA" id="F05D906D-1C54-B044-E98A-6231245C73AF">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:39:15 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="717D0C92-2CE5-793A-8CB3-00DADC36C874" name="TBL_ZONAS_HORARIAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:39:56 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BF5D34C-5D46-F881-E5CA-8DFE9488CA66"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

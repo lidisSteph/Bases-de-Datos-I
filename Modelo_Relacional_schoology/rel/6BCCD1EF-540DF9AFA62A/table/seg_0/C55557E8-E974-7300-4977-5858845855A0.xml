@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C55557E8-E974-7300-4977-5858845855A0" name="TBL_BLOG_POSTS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:28:29 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_14</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_BLOG_POST" id="E63703FB-D338-1968-BBB0-0DBC8EFDA2C3">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:04:27 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1261F500-F5C7-8702-1C25-45636AE12876" referredColumn="A09E2382-77C2-742A-FB92-F9ADE1DE2E90"/>
+</associations>
+</Column>
+<Column name="TITULO_BLOG_POST" id="B152C277-8F86-D2E4-30DD-B86C05D3A907">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:29:14 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO_BLOG_POST" id="A876C5D9-C442-791D-4B6A-6208D3D50B68">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:29:14 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="42DE2BD4-3E41-4B4A-2D94-143E340A1B98" name="TBL_POSTS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:29:26 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E63703FB-D338-1968-BBB0-0DBC8EFDA2C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36775771-B390-1CD1-AD6E-423359BAEFA7" name="TBL_POSTS_TBL_PUBLICACIONES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:11:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E63703FB-D338-1968-BBB0-0DBC8EFDA2C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

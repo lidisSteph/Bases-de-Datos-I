@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2F37D03-CEA6-2618-2D0B-45BDB3D22D23" name="TBL_ESCUELAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:06:59 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_10</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESCUELA" id="E34BB951-82D9-7EB3-0C71-10EF68E088C7">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESCUELA" id="A5EA41D6-1F23-31AA-999F-350A2AFBB154">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_POSTAL" id="0C087934-24D7-89BF-0E1B-479366F668F3">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B05237E8-4FE4-5625-752C-6C476FDFA9E5" name="TBL_ESCUELAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E34BB951-82D9-7EB3-0C71-10EF68E088C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

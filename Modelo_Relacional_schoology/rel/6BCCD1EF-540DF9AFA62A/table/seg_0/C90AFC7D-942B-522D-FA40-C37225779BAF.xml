@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C90AFC7D-942B-522D-FA40-C37225779BAF" name="TBL_GRUPOS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:51:42 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_GRUPO" id="89195C2A-068B-968F-C28A-76AA32A4D8D6">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:29:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9FCAB485-0E2C-393C-0B29-863F6E48254C" referredColumn="1A47C18C-FCB4-87BA-92C6-756575BE252D"/>
+</associations>
+</Column>
+<Column name="CODIGO_ACCESO" id="C3159E5E-7B8C-83D5-921A-2A6D120A4C27">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:55:19 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="434B98B2-A75A-FEE7-0D4F-8096D59174DC" referredColumn="E7EE75ED-D6B2-43EE-634B-D3AE2808ACA6"/>
+</associations>
+</Column>
+<Column name="CODIGO_CATEGORIA" id="E27D5A5F-C010-2A57-1E4B-8D1C113BCF52">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:34:48 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06A66C56-2D47-EA9B-2972-8968D58E225D" referredColumn="B7BCA980-F7A1-D203-D16B-7D04C7EC90C6"/>
+</associations>
+</Column>
+<Column name="NOMBRE_GRUPO" id="D4109CAE-9BFD-E3E2-5F7A-4F4D7993C870">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:52:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E6B1D83B-6365-F4A6-D7B6-99F9C60FBF0B" name="TBL_GRUPOS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:52:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89195C2A-068B-968F-C28A-76AA32A4D8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A402C7B3-DC78-9BDD-703C-4C8FDB186736" name="TBL_GRUPOS_TBL_ACCESOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 02:55:19 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3159E5E-7B8C-83D5-921A-2A6D120A4C27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F8FA9FA-9E4B-9D7F-378A-FF92BF0EA320" name="TBL_GRUPOS_TBL_ESTRUCTURAS_USUARIOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:29:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89195C2A-068B-968F-C28A-76AA32A4D8D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="610B5264-18B6-FEA4-1E8D-CB9E9FE3E099" name="TBL_GRUPOS_TBL_CATEGORIAS_GRUPOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:34:48 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E27D5A5F-C010-2A57-1E4B-8D1C113BCF52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

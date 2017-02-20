@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B14577C9-EFC5-761A-0916-4142360F355F" name="TBL_ACTUALIZACIONES">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:05:56 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_31</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ACTUALIZACION" id="656F7EB7-FA5F-B911-A576-A7B1944D0E94">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:07:42 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EF8B331-EE94-7B0B-54F4-3DAC13F1B860" referredColumn="A09E2382-77C2-742A-FB92-F9ADE1DE2E90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2D96454E-0BA7-3AB0-4008-9B9F24DD500E" name="TBL_ACTUALIZACIONES_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:10:42 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="656F7EB7-FA5F-B911-A576-A7B1944D0E94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D5D702C-274C-44D6-1FA8-3F367E97CDAB" name="TBL_ACTUALIZACIONES_TBL_PUBLICACIONES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:07:42 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="656F7EB7-FA5F-B911-A576-A7B1944D0E94"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

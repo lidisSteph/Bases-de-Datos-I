@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DC43859-F8A8-490B-4FC8-B6BC0C28926F" name="TBL_ESTUDIANTE">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:13:08 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTUDIANTE" id="C0F1246D-AE85-30F0-0DE5-84559B1FC10B">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:45:36 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D7124E7-C534-E1DB-E639-B8A182924D7F" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9909E232-181F-A31B-0265-9C0D62714DD7" name="TBL_ESTUDIANTE_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:45:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0F1246D-AE85-30F0-0DE5-84559B1FC10B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF905B7C-5338-92FC-099B-16D05DB63208" name="TBL_ESTUDIANTE_TBL_USUARIO_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:45:36 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C0F1246D-AE85-30F0-0DE5-84559B1FC10B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

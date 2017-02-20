@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A49EF3A-692E-4AEA-DF3B-13ED7C231AFD" name="TBL_TAREAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:06:05 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_32</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TAREA" id="405D3088-B723-D61C-8EA6-22CC3672002A">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9C08F92-94C2-DD88-D16A-38B14D52E514" referredColumn="A09E2382-77C2-742A-FB92-F9ADE1DE2E90"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F110ACF1-7C4A-BEED-FF8B-442FBD2C3ADD" name="TBL_TAREAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:10:48 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="405D3088-B723-D61C-8EA6-22CC3672002A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ABF4CD2D-93C0-DB15-FCDE-E1E0008BD791" name="TBL_TAREAS_TBL_PUBLICACIONES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:07:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="405D3088-B723-D61C-8EA6-22CC3672002A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

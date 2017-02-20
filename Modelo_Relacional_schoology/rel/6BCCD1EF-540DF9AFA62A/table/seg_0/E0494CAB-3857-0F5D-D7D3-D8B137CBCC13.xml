@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0494CAB-3857-0F5D-D7D3-D8B137CBCC13" name="TBL_TITULOS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:28:12 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TITULO" id="8A460D7A-70C3-FEB2-E697-DE86DBB360C6">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:43:34 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TITULO" id="7A6221B5-9290-5917-7496-A989DCA6EE42">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:43:34 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B34B41DB-D04A-C09B-24F7-AFAB1DC0AEF0" name="TBL_TITULOS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:43:34 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A460D7A-70C3-FEB2-E697-DE86DBB360C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

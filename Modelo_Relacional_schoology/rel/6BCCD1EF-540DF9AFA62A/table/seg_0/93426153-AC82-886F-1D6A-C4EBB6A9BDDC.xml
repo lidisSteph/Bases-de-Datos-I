@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93426153-AC82-886F-1D6A-C4EBB6A9BDDC" name="TBL_ESTRUCTURAS_USUARIOS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:25:27 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_37</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTRUCTURA" id="1A47C18C-FCB4-87BA-92C6-756575BE252D">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:29:04 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="721B39AE-96D5-2894-23A7-0EDD2D20C826">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:33:30 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MODERACION" id="79C693D6-C16D-7BE3-A3FA-F6BCC15A7A81">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:33:15 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="68F3167F-DA37-6AA1-1885-E3AAD78FB46A" name="TBL_ESTRUCTURAS_USUARIOS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 03:29:04 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A47C18C-FCB4-87BA-92C6-756575BE252D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

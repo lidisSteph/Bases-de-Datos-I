@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5ECB9391-A876-A699-610C-3379191E93A3" mainViewID="A431967B-AF53-C68F-2AF9-923278DDF05D">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 00:07:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
