@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB2EF549-A136-9768-973F-219977F59216" name="TBL_ADMINISTRADORES_CURSO">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:54:32 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ADMINISTRADOR" id="116EB0A9-0FA0-6CCD-BDFC-1CD16DA66E45">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:55:54 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59A17ADB-FE85-91C3-8A37-046DCDEF387B" referredColumn="42C7AD8E-EECA-5199-B3FE-77FA7A40BBEB"/>
+</associations>
+</Column>
+<Column name="CODIGO_CURSO" id="9580597E-A646-913E-BAC9-C9B8F13631F1">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:56:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E146A1FB-57FD-DBB9-E4F9-C8C9278A468D" referredColumn="8D28CCE1-AD8C-1810-9384-9FDF4132FF6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBA6243A-F37D-C360-0219-E264BBE41E2F" name="TBL_ADMINISTRADORES_CURSO_PK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-21 00:02:53 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9580597E-A646-913E-BAC9-C9B8F13631F1"/>
+<colUsage columnID="116EB0A9-0FA0-6CCD-BDFC-1CD16DA66E45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0370E8A0-52BF-A413-18F2-5BABAC6FB914" name="TBL_ADMINISTRADORES_CURSO_TBL_INSTRUCTOR_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:55:54 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="116EB0A9-0FA0-6CCD-BDFC-1CD16DA66E45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6FD4FBA-F929-A3BB-B9B0-64CFA49C3B62" name="TBL_ADMINISTRADORES_CURSO_TBL_CURSOS_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:56:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9580597E-A646-913E-BAC9-C9B8F13631F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1F9DF15C-F789-2B5E-E4B6-B2502125B80E" name="TBL_ESTUDIANTES_X_CURSO">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:59:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_41</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTUDIANTE" id="971910DC-61BB-9DE8-397C-8BFC6D62297C">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:59:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F25530B7-6607-36EC-52AD-4CFC278683AD" referredColumn="C0F1246D-AE85-30F0-0DE5-84559B1FC10B"/>
+</associations>
+</Column>
+<Column name="CODIGO_CURSO" id="EDB94B08-6313-ACA4-3BF5-0F5395805C10">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:59:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="136B09C8-30CA-B39E-A686-A33CBF0D82A6" referredColumn="8D28CCE1-AD8C-1810-9384-9FDF4132FF6E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BEDB36A-8175-6EC1-0EE3-C5394F08B0F8" name="TBL_ESTUDIANTES_X_CURSO_PK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-21 00:03:13 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="971910DC-61BB-9DE8-397C-8BFC6D62297C"/>
+<colUsage columnID="EDB94B08-6313-ACA4-3BF5-0F5395805C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="126D6177-A005-9908-C782-CD92ED1B6485" name="TBL_ESTUDIANTES_X_CURSO_TBL_ESTUDIANTE_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:59:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="971910DC-61BB-9DE8-397C-8BFC6D62297C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="044D5C0B-3C5B-7F76-4D30-C848706EE9DF" name="TBL_ESTUDIANTES_X_CURSO_TBL_CURSOS_FK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:59:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDB94B08-6313-ACA4-3BF5-0F5395805C10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A2B52652-6679-CC88-6981-2EFAEE1E429D" name="TBL_TIPOS_NOTIFICACIONES">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:01:43 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_NOTIFICACION" id="9FB96D37-C375-7CB2-96F0-66A01BEC46E0">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:02:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_NOTIFICACION" id="6F7D7491-19CC-6B78-8E88-2D7C80DE20ED">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:02:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37908A5A-DE15-D8F4-57C1-3CFA43DFA6FF" name="TBL_NOTIFICACIONES_PK">
+<createdBy>Gissel Lanza</createdBy>
+<createdTime>2017-02-20 23:02:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FB96D37-C375-7CB2-96F0-66A01BEC46E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
