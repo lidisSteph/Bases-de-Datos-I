@@ -16,8 +16,19 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_USUARIO" id="CF3964F1-03ED-6F3E-6988-DEF9E0EAEEA8">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:27:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1261F500-F5C7-8702-1C25-45636AE12876" referredColumn="A09E2382-77C2-742A-FB92-F9ADE1DE2E90"/>
+<colAssociation fkAssociation="0C21A41A-6AA1-51F4-0D07-74140E871713" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
 </associations>
 </Column>
 <Column name="TITULO_BLOG_POST" id="B152C277-8F86-D2E4-30DD-B86C05D3A907">
@@ -51,14 +62,14 @@
 <colUsage columnID="E63703FB-D338-1968-BBB0-0DBC8EFDA2C3"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="36775771-B390-1CD1-AD6E-423359BAEFA7" name="TBL_POSTS_TBL_PUBLICACIONES_FK">
+<ind_PK_UK id="C610A856-4655-0A78-88B7-2F0DE94BC2AC" name="TBL_BLOG_POSTS_TBL_USUARIO_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 02:11:44 UTC</createdTime>
+<createdTime>2017-02-21 02:27:44 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E63703FB-D338-1968-BBB0-0DBC8EFDA2C3"/>
+<colUsage columnID="CF3964F1-03ED-6F3E-6988-DEF9E0EAEEA8"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

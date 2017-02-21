@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F8EE92F-9265-39C2-DCCC-A36F7D4D55F2" name="TBL_PREGUNTAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 04:16:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PREGUNTA" id="C5382B71-1DD0-EF34-64E1-15BFF60BC210">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 04:17:47 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="66A8D128-51AB-0A8F-A936-D115362CDE63" name="TBL_PREGUNTAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 04:17:47 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5382B71-1DD0-EF34-64E1-15BFF60BC210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

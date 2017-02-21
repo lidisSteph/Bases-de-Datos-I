@@ -12,7 +12,9 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 00:42:02 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -25,12 +27,26 @@
 <createdTime>2017-02-20 00:43:37 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="15089331-FFC3-EA32-EB00-27C32A0E7A1A" referredColumn="8A460D7A-70C3-FEB2-E697-DE86DBB360C6"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESCUELA" id="7A9B6476-81F5-5476-9DC9-9C20CBA1293F">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:16:20 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6F4A47D7-9476-3ABD-CE5D-E1A10C446327" referredColumn="E34BB951-82D9-7EB3-0C71-10EF68E088C7"/>
 </associations>
 </Column>
 <Column name="MATERIA_IMPARTIDAS" id="C4379B85-6618-5CCF-FB75-98435C41610B">
@@ -91,6 +107,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="CFCDB1D9-66BC-F105-96E6-DC8398A551F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48395294-9B42-0027-29F4-98AE7F9F6D96" name="TBL_INSTRUCTOR_TBL_ESCUELAS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:16:20 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A9B6476-81F5-5476-9DC9-9C20CBA1293F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

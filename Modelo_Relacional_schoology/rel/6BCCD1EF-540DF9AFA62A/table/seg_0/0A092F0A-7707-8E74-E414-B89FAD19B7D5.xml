@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A092F0A-7707-8E74-E414-B89FAD19B7D5" name="TBL_ROLES">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:07:02 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_42</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ROL" id="AE58928D-C3F2-FAF6-773C-F3C1C5057E4F">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:07:43 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ROL" id="01D53735-770E-AB4B-E80E-1673DBAF3F71">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:07:43 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_ROL" id="3E92AC29-81DE-1EA6-D8CD-0CFDDA00A290">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:07:43 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BB9308F-6631-FEBE-829B-F129FD55DA87" name="TBL_ROLES_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:07:43 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE58928D-C3F2-FAF6-773C-F3C1C5057E4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

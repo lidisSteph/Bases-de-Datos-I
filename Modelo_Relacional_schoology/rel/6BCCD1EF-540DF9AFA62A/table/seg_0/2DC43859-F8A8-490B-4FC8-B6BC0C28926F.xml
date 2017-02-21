@@ -12,13 +12,23 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 00:45:36 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5D7124E7-C534-E1DB-E639-B8A182924D7F" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
 </associations>
+</Column>
+<Column name="CODIGO_PARA_PADRE" id="EFFE1807-5C9D-D847-004D-7A99C8D0EC31">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:49:02 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF1C5D2F-FAB4-63FC-F380-D3C8E1563864" name="TBL_ESCALAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 04:46:16 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_64</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESCALA" id="774423B3-C9B2-5712-A0D5-DC84CAF3C997">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 04:46:41 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESCALA" id="EA95A13B-19CD-4B3F-0F2F-1AB9EB4DD753">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 04:46:41 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="436F2A78-6067-F73A-22C4-7408ABAB3C66" name="TBL_ESCALAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 04:46:41 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="774423B3-C9B2-5712-A0D5-DC84CAF3C997"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

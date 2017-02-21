@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7E10355-0587-D3FB-6C6D-3DB2599403BD" name="TBL_ARCHIVOS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:21:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_44</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ARCHIVO" id="FE059210-D367-7311-B032-8FDFA88F9B34">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:24:50 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8535768-0687-1AED-D9BB-0F2025D9DD9A" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
+</associations>
+</Column>
+<Column name="ARCHIVO" id="FABF2690-E757-8355-3782-0706FF36D30E">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:35:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7E79992-4964-16DC-E91B-1779A9D32AFA" name="TBL_ARCHIVOS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:25:30 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE059210-D367-7311-B032-8FDFA88F9B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3C8FCAC-023C-1E17-B78E-C72AC65CF916" name="TBL_ARCHIVOS_TBL_MATERIALES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:24:50 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE059210-D367-7311-B032-8FDFA88F9B34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

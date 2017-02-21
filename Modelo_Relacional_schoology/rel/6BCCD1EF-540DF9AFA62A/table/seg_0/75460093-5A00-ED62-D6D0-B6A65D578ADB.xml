@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75460093-5A00-ED62-D6D0-B6A65D578ADB" name="TBL_TIPOS_CALCULOS_EVALUACION">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:50:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_CALCULO" id="588468BA-3057-7296-4927-0E7FB2A49522">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:51:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_CALCULO" id="EAD0301E-EAA3-3A96-C9E1-8127F91B4C76">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:51:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC48D726-A2B1-E968-FF58-9178E1A7B884" name="TBL_TIPOS_CALCULOS_EVALUACION_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:51:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="588468BA-3057-7296-4927-0E7FB2A49522"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

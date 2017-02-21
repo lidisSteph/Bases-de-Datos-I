@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8CE0CC78-37C0-5E5C-D5BF-5267AA85DD35" name="TBL_PERMISOS_COMENTARIOS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:59:46 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_49</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERMISO" id="13B952DC-DF37-4977-8CB0-73A052850609">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:00:14 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PERMISO" id="592BDDC2-BC39-BD99-FB5C-6CE2775ECFD8">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:00:14 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3147E4B2-5AC3-A63C-D054-A9A38AA29A5A" name="TBL_PERMISOS_COMENTARIOS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:00:14 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13B952DC-DF37-4977-8CB0-73A052850609"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -8,14 +8,19 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_CURSO" id="5DA88382-BE8E-77BD-F936-957D880350F5">
+<Column name="CODIGO_CURSO" id="1FEC1DBC-4E39-8F95-9485-DA345CB2B14E">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 02:27:55 UTC</createdTime>
+<createdTime>2017-02-20 03:30:50 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54AF3F62-F563-B6E4-33A6-521984453733" referredColumn="8D28CCE1-AD8C-1810-9384-9FDF4132FF6E"/>
+</associations>
 </Column>
 <Column name="CODIGO_DIA" id="7EF4D459-F5EE-7FD1-8EEC-163354B1F4C0">
 <createdBy>Marlon Calderón</createdBy>
@@ -29,18 +34,6 @@
 <colAssociation fkAssociation="484C26BE-79D8-7449-5F54-4C04B2C9F39E" referredColumn="888ADDBE-EC0E-AF46-8727-55BB4C595E8A"/>
 </associations>
 </Column>
-<Column name="TBL_CURSOS_CODIGO_CURSO1" id="1FEC1DBC-4E39-8F95-9485-DA345CB2B14E">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:30:50 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="54AF3F62-F563-B6E4-33A6-521984453733" referredColumn="8D28CCE1-AD8C-1810-9384-9FDF4132FF6E"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="398D1C95-DFD8-3FDC-3394-2B43DB330DF9" name="TBL_CURSOS_X_DIAS_PK">
@@ -51,8 +44,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5DA88382-BE8E-77BD-F936-957D880350F5"/>
 <colUsage columnID="7EF4D459-F5EE-7FD1-8EEC-163354B1F4C0"/>
+<colUsage columnID="1FEC1DBC-4E39-8F95-9485-DA345CB2B14E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="065A110C-1331-16BD-EA64-09EE2CA1F16F" name="TBL_CURSOS_X_DIAS_TBL_CURSOS_FK">

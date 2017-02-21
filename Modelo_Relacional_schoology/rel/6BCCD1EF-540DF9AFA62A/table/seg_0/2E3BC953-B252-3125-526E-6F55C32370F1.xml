@@ -12,21 +12,11 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 00:10:18 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_ESCUELA" id="A513A414-B76D-4C74-7C10-47F0DA8D0486">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 01:08:00 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="28EF131D-547B-0694-CE9A-B1A52EE882E6" referredColumn="E34BB951-82D9-7EB3-0C71-10EF68E088C7"/>
-</associations>
 </Column>
 <Column name="CODIGO_ZONA_HORARIA" id="31D783D1-D720-87B0-5AB4-B4101A0DF8AD">
 <createdBy>Marlon Calderón</createdBy>
@@ -220,16 +210,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="31D783D1-D720-87B0-5AB4-B4101A0DF8AD"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="222FB1AE-CD37-EE85-0A36-12908A3B7685" name="TBL_USUARIO_TBL_ESCUELAS_FK">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 01:08:00 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="A513A414-B76D-4C74-7C10-47F0DA8D0486"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="8C7A1404-D0D0-49BE-B367-E6B95823F3F8" name="TBL_USUARIO_TBL_GENEROS_FK">

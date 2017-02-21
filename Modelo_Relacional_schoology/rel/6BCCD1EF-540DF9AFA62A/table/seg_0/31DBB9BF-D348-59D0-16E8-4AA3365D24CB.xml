@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="31DBB9BF-D348-59D0-16E8-4AA3365D24CB" name="TBL_PRIVACIDADES">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:15 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_39</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ATRIBUTO" id="8BFC3BBA-ACE3-1663-8CA2-025379EB00A8">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:48 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D19C4C3-EFDD-AF80-22F5-3D0372CEC85E" referredColumn="5C9DADF3-C568-3795-CCBD-1DB10A462F14"/>
+</associations>
+</Column>
+<Column name="CODIGO_ALCANCE" id="68D28798-50D1-339D-033A-12E04141559A">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:43 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8399D3A7-35FE-53B0-896A-3115D234BBE9" referredColumn="BE4AC6E4-C8EA-2E52-416C-102D2C609D4F"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="23C00820-1A72-CEE6-E036-BBFFE3CE91F4">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:51 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C398AF46-CEC5-B83E-F57D-ECCAB0429DE3" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+</associations>
+</Column>
+<Column name="CODIGO_ESTRUCTURA" id="FDE34C21-4A0F-31EB-8090-F98BB2A211C8">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DBAD6E31-E256-9013-4FA0-DFB38755E4A9" referredColumn="1A47C18C-FCB4-87BA-92C6-756575BE252D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D08398FE-0C75-A607-B78B-BF3AF521E4B2" name="TBL_PRIVACIDADES__UN">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:55:09 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BFC3BBA-ACE3-1663-8CA2-025379EB00A8"/>
+<colUsage columnID="68D28798-50D1-339D-033A-12E04141559A"/>
+<colUsage columnID="23C00820-1A72-CEE6-E036-BBFFE3CE91F4"/>
+<colUsage columnID="FDE34C21-4A0F-31EB-8090-F98BB2A211C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="81C4D3FE-D98A-0694-756C-4B1D9738C076" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_ALCANCE_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:43 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68D28798-50D1-339D-033A-12E04141559A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD83C6F5-394E-AB87-4459-581EAFC29919" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_ATRIBUTOS_PRIVACIDAD_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:48 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BFC3BBA-ACE3-1663-8CA2-025379EB00A8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="342C439B-A3D3-4C32-8390-945D8134A40B" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_USUARIO_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:51 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23C00820-1A72-CEE6-E036-BBFFE3CE91F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD402B87-6D10-4821-1B02-578FE391665E" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_ESTRUCTURAS_USUARIOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:52:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE34C21-4A0F-31EB-8090-F98BB2A211C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

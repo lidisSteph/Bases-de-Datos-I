@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="84EDFAE5-85EF-C2C3-666D-8DC590F89793" name="TBL_PERIODOS_EVALUACION">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:55:25 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PERIODO" id="0CD9F8C5-7BD0-ED06-C67B-F173435541B9">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:55:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PERIODO" id="450A302A-84D2-36A6-2A88-D84662D4308B">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 03:02:13 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_INICIO_PERIODO" id="58590C6A-052E-380A-8371-5A3CA878DC0A">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 03:02:13 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_FINALIZACION_PERIODO" id="444E6480-9C63-FDBC-0537-ED93F65090EE">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 03:02:13 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1BDB5A18-7E15-17FA-805C-D83DCA641DA8" name="TBL_PERIODOS_EVALUACION_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 03:32:21 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CD9F8C5-7BD0-ED06-C67B-F173435541B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

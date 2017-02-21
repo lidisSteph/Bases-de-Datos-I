@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED7E0B08-74FD-8A7C-C732-3B9A642C0C2A" name="TBL_CATEGORIAS_CALIFICACION">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:49:07 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_53</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_CATEGORIA_CALIFICACION" id="21510DC2-622C-19D2-0822-164D530E6666">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:50:50 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_TIPO_CALCULO" id="9B061EB0-A401-389E-CC7B-47B37764D6FE">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:52:40 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F6FB472-BC65-C6C3-B508-2EC15630004F" referredColumn="588468BA-3057-7296-4927-0E7FB2A49522"/>
+</associations>
+</Column>
+<Column name="CODIGO_PUNTAJE_BAJO" id="D6B6BC95-2861-E9E2-60A4-BE068135508D">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:52:37 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3DBE80B5-8B49-F32E-A059-0A3CAD0F4919" referredColumn="5A532F58-D3BE-7674-DA6C-B1C57EF15F80"/>
+</associations>
+</Column>
+<Column name="NOMBRE_CATEGORIA" id="9426854B-5C63-C9AA-EF3C-43B0A0DC311A">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:50:50 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="411B48A0-BC51-638E-A951-8904C932098E" name="TBL_CATEGORIAS_CALIFICACION_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:50:50 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="21510DC2-622C-19D2-0822-164D530E6666"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="367E4D7A-0EB5-4ED4-B4EA-A1AD362B043B" name="TBL_CATEGORIAS_CALIFICACION_TBL_PUNTAJES_BAJOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:52:37 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6B6BC95-2861-E9E2-60A4-BE068135508D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7A98DA2-07E7-1FEA-AF5B-FEB917C9FD21" name="TBL_CATEGORIAS_CALIFICACION_TBL_TIPOS_CALCULOS_EVALUACION_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:52:40 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B061EB0-A401-389E-CC7B-47B37764D6FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E398C62-D2E3-A6B4-C58E-B17E27E77366" name="TBL_PAGINAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:21:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_45</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_PAGINA" id="FE144A29-EF0D-BD21-BDC0-7F0B6D7E3A38">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:26:16 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59270459-F7E0-DD5C-50EE-542F26134F43" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
+</associations>
+</Column>
+<Column name="CODIGO_VISUALIZACION" id="3E3F7327-C12B-6D0D-6AA0-355DD55DEFE6">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:50:06 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0F8F8A0-4E0F-1CFE-638B-3ADE310112F2" referredColumn="D08FE1CC-3F97-30BB-6D6F-62882C84D512"/>
+</associations>
+</Column>
+<Column name="TITULO_PAGINA" id="2E25F956-B970-B342-8377-A958C8FAAA42">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:50:33 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTENIDO_PAGINA" id="F2C57137-41D1-E67D-CF42-D4E7F97FA444">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:50:33 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A99E349F-BDCC-37BE-82E6-926D45ADB55C" name="TBL_PAGINAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:26:29 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE144A29-EF0D-BD21-BDC0-7F0B6D7E3A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B0A8C65-26EB-40E1-EA77-669AE54ECD54" name="TBL_PAGINAS_TBL_MATERIALES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:26:16 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE144A29-EF0D-BD21-BDC0-7F0B6D7E3A38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A2458115-C2C0-0CB0-79EE-EE0F7B49D9B5" name="TBL_PAGINAS_TBL_VISUALIZACIONES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 01:50:06 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E3F7327-C12B-6D0D-6AA0-355DD55DEFE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

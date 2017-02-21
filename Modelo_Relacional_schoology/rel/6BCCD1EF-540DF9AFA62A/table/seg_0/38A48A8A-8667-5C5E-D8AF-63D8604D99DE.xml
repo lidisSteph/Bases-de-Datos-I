@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38A48A8A-8667-5C5E-D8AF-63D8604D99DE" name="TBL_NOTIFICACIONES_CURSOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="38A48A8A-8667-5C5E-D8AF-63D8604D99DE" name="TBL_NOTIFICACIONES">
 <createdBy>Gissel Lanza</createdBy>
 <createdTime>2017-02-20 23:01:04 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -8,18 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_CURSO" id="14DBEE00-127B-F154-C2FE-11F1E3AE3C0D">
-<createdBy>Gissel Lanza</createdBy>
-<createdTime>2017-02-20 23:05:34 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="E67BC35B-2BFA-64C3-BCE9-8C538D448463" referredColumn="8D28CCE1-AD8C-1810-9384-9FDF4132FF6E"/>
-</associations>
-</Column>
 <Column name="CODIGO_TIPO_NOTIFICACION" id="D0F1DC15-1A4C-3BE8-789E-09055CBE3100">
 <createdBy>Gissel Lanza</createdBy>
 <createdTime>2017-02-20 23:05:41 UTC</createdTime>
@@ -46,6 +34,18 @@
 <colAssociation fkAssociation="8AFD75F7-1631-0036-E56A-5EBB6424DBC1" referredColumn="4D9D6519-8B6B-FFD2-F20F-E41F395FB330"/>
 </associations>
 </Column>
+<Column name="CODIGO_ESTRUCTURA" id="8F886C53-060B-5D65-77DE-15C988DBED4E">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:48:06 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A32A883-5968-5E53-638D-C28DDC2305AE" referredColumn="1A47C18C-FCB4-87BA-92C6-756575BE252D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="471377C8-D0AC-AA97-E814-876A85775619" name="TBL_NOTIFICACIONES_CURSOS_PK">
@@ -56,19 +56,8 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="14DBEE00-127B-F154-C2FE-11F1E3AE3C0D"/>
 <colUsage columnID="D0F1DC15-1A4C-3BE8-789E-09055CBE3100"/>
 <colUsage columnID="06637C8F-665D-1C40-988E-F1D4501780A4"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="743E050C-F475-C0C2-41BC-4FAA442286E8" name="TBL_NOTIFICACIONES_CURSOS_TBL_CURSOS_FK">
-<createdBy>Gissel Lanza</createdBy>
-<createdTime>2017-02-20 23:05:34 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="14DBEE00-127B-F154-C2FE-11F1E3AE3C0D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="AB3D52EC-1BC9-ECBB-CF4D-A0089C10BA16" name="TBL_NOTIFICACIONES_CURSOS_TBL_NOTIFICACIONES_FK">
@@ -89,6 +78,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="06637C8F-665D-1C40-988E-F1D4501780A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB182A36-5C1C-A6B4-F6E2-611002580E1C" name="TBL_NOTIFICACIONES_TBL_ESTRUCTURAS_USUARIOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 00:48:06 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F886C53-060B-5D65-77DE-15C988DBED4E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

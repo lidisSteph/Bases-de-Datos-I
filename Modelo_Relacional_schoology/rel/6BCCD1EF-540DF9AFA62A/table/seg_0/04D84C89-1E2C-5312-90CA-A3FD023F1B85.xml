@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="04D84C89-1E2C-5312-90CA-A3FD023F1B85" name="TBL_FOTOS_X_ALBUMES">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:01:51 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_FOTO" id="AAD52DFF-7995-02C2-7B57-E9CC3E8F3152">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:02:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11BF9548-6A36-8117-B7D8-F2F2C7051C8B" referredColumn="8669EA87-0694-AC63-F487-E3D85DBC0CFC"/>
+</associations>
+</Column>
+<Column name="CODIGO_ALBUM" id="63D2CDE0-4744-81BC-F8E4-9B5709169A08">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:02:08 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2791469E-F6FA-3C91-FB3D-9F389E62634B" referredColumn="194FA7ED-C568-DC49-1B4A-4292D818A273"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40ABFA16-0407-4CC1-174C-EA8DDA6578B6" name="TBL_FOTOS_X_ALBUMES_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:02:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D2CDE0-4744-81BC-F8E4-9B5709169A08"/>
+<colUsage columnID="AAD52DFF-7995-02C2-7B57-E9CC3E8F3152"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0885421-DA2D-37ED-41EB-3FD1B6DE37CE" name="TBL_FOTOS_X_ALBUMES_TBL_FOTOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:02:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AAD52DFF-7995-02C2-7B57-E9CC3E8F3152"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="54B52FC3-C8A2-E688-5C93-B30A9FD08F6E" name="TBL_FOTOS_X_ALBUMES_TBL_ALBUMES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-21 02:02:08 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D2CDE0-4744-81BC-F8E4-9B5709169A08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
