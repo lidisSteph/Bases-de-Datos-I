@@ -8,20 +8,9 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_ACTUALIZACION" id="656F7EB7-FA5F-B911-A576-A7B1944D0E94">
+<Column name="CODIGO_ACTUALIZACION" id="1EE537F3-A453-39A7-A0ED-B3116AB912DA">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:07:42 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_USUARIO" id="51357075-BDBE-C7B5-3F8F-9EBADCC5999A">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:31:43 UTC</createdTime>
+<createdTime>2017-02-23 05:05:19 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -30,8 +19,17 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="940D07ED-4C9E-5B25-2BBA-A2A683A5F3D8" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+<colAssociation fkAssociation="78798C30-3F47-E085-814F-4673F129E698" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
 </associations>
+</Column>
+<Column name="CONTENIDO_ACTUALIZACION" id="F39FAE0B-5F11-8FF9-ED9B-3D96C6EBFB31">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:06:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
@@ -43,17 +41,17 @@
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="656F7EB7-FA5F-B911-A576-A7B1944D0E94"/>
+<colUsage columnID="1EE537F3-A453-39A7-A0ED-B3116AB912DA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="071F5F02-9BFB-A03A-B120-B8B59F65A156" name="TBL_ACTUALIZACIONES_TBL_USUARIO_FK">
+<ind_PK_UK id="A47DC2AC-4B14-41A5-D896-3F20D792BA5B" name="TBL_ACTUALIZACIONES_TBL_MATERIALES_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:31:43 UTC</createdTime>
+<createdTime>2017-02-23 05:05:19 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="51357075-BDBE-C7B5-3F8F-9EBADCC5999A"/>
+<colUsage columnID="1EE537F3-A453-39A7-A0ED-B3116AB912DA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

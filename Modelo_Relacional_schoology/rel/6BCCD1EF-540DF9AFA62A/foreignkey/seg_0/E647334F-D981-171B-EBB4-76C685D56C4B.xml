@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="940D07ED-4C9E-5B25-2BBA-A2A683A5F3D8" containerWithKeyObject="B14577C9-EFC5-761A-0916-4142360F355F" localFKIndex="071F5F02-9BFB-A03A-B120-B8B59F65A156" name="TBL_ACTUALIZACIONES_TBL_USUARIO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E647334F-D981-171B-EBB4-76C685D56C4B" containerWithKeyObject="154A5EBB-1E58-8685-32FD-AFBDCB6E233A" localFKIndex="90E56628-A50B-8611-12D0-C55D54A63A89" name="TBL_ENTREGAS_TAREAS_TBL_USUARIO_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:31:43 UTC</createdTime>
+<createdTime>2017-02-23 05:25:09 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <deleteRule>NO ACTION</deleteRule>
 <referredTableID>2E3BC953-B252-3125-526E-6F55C32370F1</referredTableID>

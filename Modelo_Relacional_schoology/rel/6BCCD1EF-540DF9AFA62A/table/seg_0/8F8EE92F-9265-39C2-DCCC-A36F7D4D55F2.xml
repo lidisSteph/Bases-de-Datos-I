@@ -18,6 +18,52 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_TIPO_PREGUNTA" id="3362BCE6-8B37-F284-2769-D0B8E38E6D8B">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:52:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8B8ADB48-BE0F-4D3A-0CC2-7C8F2464E73F" referredColumn="0A416927-3BB5-C879-EC8C-72086907F45E"/>
+</associations>
+</Column>
+<Column name="CODIGO_PRUEBA" id="A3A230EA-9D5F-B3A7-9B3C-6469BAEC346D">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:53:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2E4CEA88-E7F7-60AF-8810-3C79D9BEFBE7" referredColumn="C2407F95-7E4D-0CDA-D015-689718522143"/>
+</associations>
+</Column>
+<Column name="PREGUNTA" id="92E3C0A5-E620-C80D-362B-CE1BFB975AE7">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:51:02 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RESPUESTA_USUARIO" id="30FA29C9-8BE2-D3AE-A0E2-CBD8B300A313">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:51:02 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="66A8D128-51AB-0A8F-A936-D115362CDE63" name="TBL_PREGUNTAS_PK">
@@ -29,6 +75,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="C5382B71-1DD0-EF34-64E1-15BFF60BC210"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="80BFF99C-ECA4-EAA3-97EE-EA0F022D47F5" name="TBL_PREGUNTAS_TBL_TIPOS_PREGUNTAS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:52:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3362BCE6-8B37-F284-2769-D0B8E38E6D8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7E618D6-5BE9-A77F-3BE9-7417802DCFB7" name="TBL_PREGUNTAS_TBL_PRUEBAS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:53:03 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3A230EA-9D5F-B3A7-9B3C-6469BAEC346D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05D8F36C-52E0-E3F8-6BEC-2E1B2D538C12" name="TBL_TIPOS_USUARIOS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:26:19 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_58</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_TIPO_USUARIO" id="5C4A65DA-C971-9917-45C0-74D48F5621F0">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:26:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_USUARIO" id="21D8E79D-F1C5-DF17-449E-E5367797DBB6">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:26:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE5730C4-A84A-8B33-D6FD-85D7D452F11E" name="TBL_TIPOS_USUARIOS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:26:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5C4A65DA-C971-9917-45C0-74D48F5621F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

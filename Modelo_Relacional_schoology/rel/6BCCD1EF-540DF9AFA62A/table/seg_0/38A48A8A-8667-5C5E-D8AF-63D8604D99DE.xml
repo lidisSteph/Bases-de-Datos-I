@@ -38,7 +38,9 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:48:06 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -46,20 +48,23 @@
 <colAssociation fkAssociation="1A32A883-5968-5E53-638D-C28DDC2305AE" referredColumn="1A47C18C-FCB4-87BA-92C6-756575BE252D"/>
 </associations>
 </Column>
+<Column name="CODIGO_MATERIAL" id="E157A57A-C090-BCB9-EF0A-484272018DFF">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:31:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5827442A-13FF-0FD4-EF6F-F3ABAEEC5289" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="471377C8-D0AC-AA97-E814-876A85775619" name="TBL_NOTIFICACIONES_CURSOS_PK">
-<createdBy>Gissel Lanza</createdBy>
-<createdTime>2017-02-20 23:10:19 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="D0F1DC15-1A4C-3BE8-789E-09055CBE3100"/>
-<colUsage columnID="06637C8F-665D-1C40-988E-F1D4501780A4"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="AB3D52EC-1BC9-ECBB-CF4D-A0089C10BA16" name="TBL_NOTIFICACIONES_CURSOS_TBL_NOTIFICACIONES_FK">
 <createdBy>Gissel Lanza</createdBy>
 <createdTime>2017-02-20 23:05:41 UTC</createdTime>
@@ -88,6 +93,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="8F886C53-060B-5D65-77DE-15C988DBED4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E7A857F-95C2-6813-202D-E6B8C5530ECB" name="TBL_NOTIFICACIONES_TBL_MATERIALES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 04:31:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E157A57A-C090-BCB9-EF0A-484272018DFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

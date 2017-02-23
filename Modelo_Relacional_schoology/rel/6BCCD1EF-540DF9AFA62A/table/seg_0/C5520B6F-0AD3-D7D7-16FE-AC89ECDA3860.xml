@@ -8,20 +8,6 @@
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_ACTUALIZACION" id="2D8C497C-C131-A7B9-0070-A0DB3403A235">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:29:48 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="71FDE50B-64CD-45D1-A85B-0144CF252D8F" referredColumn="656F7EB7-FA5F-B911-A576-A7B1944D0E94"/>
-</associations>
-</Column>
 <Column name="CODIGO_OPCION_ENCUESTA" id="2EB80A66-4654-5519-E16A-7E978313C98D">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 02:31:17 UTC</createdTime>
@@ -67,6 +53,20 @@
 <colAssociation fkAssociation="91BF72CF-ACFE-DB03-2666-54FA21C5A987" referredColumn="D48BC56E-6ADC-7701-71C6-879E90545E9C"/>
 </associations>
 </Column>
+<Column name="TBL_ACTUALIZACIONES_CODIGO_MATERIAL" id="8363802D-E9E4-D63B-A4B8-0EE847363039">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:05:35 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71FDE50B-64CD-45D1-A85B-0144CF252D8F" referredColumn="1EE537F3-A453-39A7-A0ED-B3116AB912DA"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="EB4BFE8F-F4FC-8C3B-6BBD-F80A2EF6267A" name="TBL_ADJUNTOS_X_ACT_TBL_ACTUALIZACIONES_FK">
@@ -76,7 +76,7 @@
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="2D8C497C-C131-A7B9-0070-A0DB3403A235"/>
+<colUsage columnID="8363802D-E9E4-D63B-A4B8-0EE847363039"/>
 </indexColumnUsage>
 </ind_PK_UK>
 <ind_PK_UK id="D4FBDA52-5EA5-DA09-E997-6B5381454B36" name="TBL_ADJUNTOS_X_ACT_TBL_OPC_ENCUESTAS_FK">

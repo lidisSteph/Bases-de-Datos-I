@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEC92AFE-41A6-DDA6-27AE-880BC6B20886" name="TBL_ESTADOS_ENTREGAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:23:36 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_64</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ESTADO_ENTREGA" id="9E357D31-8436-9037-C51F-72D8F0772354">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:02 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_ESTADO_ENTREGA" id="A566AD6C-93BA-AEB0-8440-6B9D211AE6D4">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:02 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AFC93DC1-B1D7-1761-6A40-F0B66F06B5E0" name="TBL_ESTADOS_ENTREGAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:02 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E357D31-8436-9037-C51F-72D8F0772354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

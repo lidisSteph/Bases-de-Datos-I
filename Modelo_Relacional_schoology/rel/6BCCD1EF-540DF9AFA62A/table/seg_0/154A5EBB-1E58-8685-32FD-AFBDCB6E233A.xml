@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="154A5EBB-1E58-8685-32FD-AFBDCB6E233A" name="TBL_ENTREGAS_TAREAS">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:18:49 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<ordsAlias>table_63</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CODIGO_ENTREGA" id="6613C1D6-0F03-9FB4-FE45-A432069EB5CE">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:23:33 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO_ESTADO_ENTREGA" id="B95E7A64-D81A-4CAB-81DE-695B5A035C72">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:05 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63A5A313-C73B-8113-51A5-213B06889A9D" referredColumn="9E357D31-8436-9037-C51F-72D8F0772354"/>
+</associations>
+</Column>
+<Column name="CODIGO_TAREA" id="A5C26704-110B-0B06-EF27-13949E3FBEAA">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:53 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68CC5AC0-FBA3-47A1-0525-214362207A25" referredColumn="F6655344-A758-C592-D39C-E8CD6407A44C"/>
+</associations>
+</Column>
+<Column name="CODIGO_USUARIO" id="CFEEB53C-1748-BDD1-7747-080CBE402595">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:25:09 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E647334F-D981-171B-EBB4-76C685D56C4B" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+</associations>
+</Column>
+<Column name="CONTENIDO_ENTREGA" id="EA9B310B-759B-2591-27A0-B1FF517398BE">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:23:33 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ARCHIVO" id="E7A94568-FC03-FE64-816B-60FE0ACD7871">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:23:33 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ENTREGA" id="E52A6416-E5B2-CA43-F15A-CB47D64701AF">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:44 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AF9A014-8F13-4F8F-901F-9F6F0D278155" name="TBL_ENTREGAS_TAREAS_PK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:23:33 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6613C1D6-0F03-9FB4-FE45-A432069EB5CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CCDEAE6B-6344-0B26-DE4F-01D79FE151E4" name="TBL_ENTREGAS_TAREAS_TBL_ESTADOS_ENTREGAS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:05 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B95E7A64-D81A-4CAB-81DE-695B5A035C72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C02FF00-770B-E094-B763-2A844805809F" name="TBL_ENTREGAS_TAREAS_TBL_TAREAS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:24:53 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5C26704-110B-0B06-EF27-13949E3FBEAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90E56628-A50B-8611-12D0-C55D54A63A89" name="TBL_ENTREGAS_TAREAS_TBL_USUARIO_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-23 05:25:09 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFEEB53C-1748-BDD1-7747-080CBE402595"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
