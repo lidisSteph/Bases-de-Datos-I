@@ -48,6 +48,20 @@
 <colAssociation fkAssociation="1A32A883-5968-5E53-638D-C28DDC2305AE" referredColumn="1A47C18C-FCB4-87BA-92C6-756575BE252D"/>
 </associations>
 </Column>
+<Column name="CODIGO_USUARIO" id="BA7A430C-258D-8E8B-B83A-7D4A1CBB80C4">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 05:26:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="45B8EC8F-506D-8714-3B1B-C7317D9D8D06" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+</associations>
+</Column>
 <Column name="CODIGO_MATERIAL" id="E157A57A-C090-BCB9-EF0A-484272018DFF">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 04:31:44 UTC</createdTime>
@@ -61,6 +75,21 @@
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="5827442A-13FF-0FD4-EF6F-F3ABAEEC5289" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
+</associations>
+</Column>
+<Column name="CODIGO_COMENTARIO" id="79062D1F-313C-8AFF-E4D7-AEF34FE84435">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 05:40:38 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BFA2B99-FA23-7F67-5ADF-91A02126C61A" referredColumn="B5CFF5EB-3842-161A-7594-6E2AEDC80AA7"/>
 </associations>
 </Column>
 </columns>
@@ -103,6 +132,26 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="E157A57A-C090-BCB9-EF0A-484272018DFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9691E0E-C32C-6C52-A421-CEFE21241A4C" name="TBL_NOTIFICACIONES_TBL_USUARIO_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 05:26:22 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA7A430C-258D-8E8B-B83A-7D4A1CBB80C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6B241A08-52B4-C20E-B1C2-69800BAECE48" name="TBL_NOTIFICACIONES_TBL_COMENTARIOS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 05:40:38 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79062D1F-313C-8AFF-E4D7-AEF34FE84435"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

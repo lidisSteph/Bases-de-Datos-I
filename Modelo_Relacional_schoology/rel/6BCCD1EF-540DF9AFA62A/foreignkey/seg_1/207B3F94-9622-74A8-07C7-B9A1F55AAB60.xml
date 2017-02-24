@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="207B3F94-9622-74A8-07C7-B9A1F55AAB60" containerWithKeyObject="5FD2F7EF-EC93-13D1-4212-53B6BDB84C18" localFKIndex="DB4AB0F4-5777-1748-77D7-8625A26DE6CE" name="TBL_RUBRICAS_TBL_MATERIALES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 04:57:26 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0418DE45-F896-D522-B54D-7D707D7A95D5</referredTableID>
+<keyObject>BD81BAE7-F71C-BCFC-A67A-673FB3AB11D9</keyObject>
+<referredKeyID>BD81BAE7-F71C-BCFC-A67A-673FB3AB11D9</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

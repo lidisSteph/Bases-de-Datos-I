@@ -94,10 +94,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="CALIFICACION" id="7F8DEE93-72B7-9177-3A8A-086F4D20FCF8">
+<Column name="PUNTAJE_OBTENIDO" id="6CF0AB0D-62FC-C92C-49DF-4066D893D041">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 04:25:00 UTC</createdTime>
-<commentInRDBMS>CAMPO PARA ACTIVAR O NO LA CALIFICACION DE ESTE MATERIAL</commentInRDBMS>
+<createdTime>2017-02-24 03:53:39 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>

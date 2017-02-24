@@ -36,6 +36,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ICONO_ESTRUCTURA" id="D6A85D2E-F09F-2DC3-4F07-205406169261">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 04:21:39 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="68F3167F-DA37-6AA1-1885-E3AAD78FB46A" name="TBL_ESTRUCTURAS_USUARIOS_PK">

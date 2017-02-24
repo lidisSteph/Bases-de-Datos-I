@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FD2F7EF-EC93-13D1-4212-53B6BDB84C18" name="TBL_RUBRICAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43C77404-2707-81C7-30F5-38BA7B844299" name="TBL_CONF_X_MATERIALES">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:49:38 UTC</createdTime>
+<createdTime>2017-02-24 03:58:58 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<ordsAlias>table_61</ordsAlias>
+<ordsAlias>table_65</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_RUBRICA1" id="0EFEE9B5-6100-EFF6-B28F-E50DD140D317">
+<Column name="CODIGO_MATERIAL" id="73FAB7BD-F545-0E63-C6D8-58D7123D4145">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:57:26 UTC</createdTime>
+<createdTime>2017-02-24 03:59:30 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,39 +19,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="207B3F94-9622-74A8-07C7-B9A1F55AAB60" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
+<colAssociation fkAssociation="37D9C621-D010-402A-3427-43CE6E0CB074" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
 </associations>
 </Column>
-<Column name="NOMBRE_RUBRICA" id="7C9FA1A3-EE7F-76DD-7B33-8CF7C55F6765">
+<Column name="CODIGO_CONFIGURACION" id="5D1B2B0E-FCC7-01CA-AF5F-718AE1AF84CA">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:53:50 UTC</createdTime>
+<createdTime>2017-02-24 03:59:32 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC6926D5-F34B-5EDD-D390-2D4D3DFBF8D0" referredColumn="91EAEFE2-5D3B-8EB9-3DFB-DEBE5090257E"/>
+</associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="29F1ADD5-BDAB-89B6-BC8C-07EF671AD9AA" name="TBL_RUBRICAS_PK">
+<ind_PK_UK id="AD2A38AC-A9A4-67F5-FBA6-BF82B73CBF2D" name="TBL_CONF_X_MATERIALES_TBL_MATERIALES_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:50:06 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="0EFEE9B5-6100-EFF6-B28F-E50DD140D317"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="DB4AB0F4-5777-1748-77D7-8625A26DE6CE" name="TBL_RUBRICAS_TBL_MATERIALES_FK">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:57:26 UTC</createdTime>
+<createdTime>2017-02-24 03:59:29 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="0EFEE9B5-6100-EFF6-B28F-E50DD140D317"/>
+<colUsage columnID="73FAB7BD-F545-0E63-C6D8-58D7123D4145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C1036B6-34BC-B436-F80F-5EA6A1709FF6" name="TBL_CONF_X_MATERIALES_TBL_CONFIGURACIONES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 03:59:32 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D1B2B0E-FCC7-01CA-AF5F-718AE1AF84CA"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,26 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E5CBB8F8-D31B-5D0E-BF78-E3919B4AE4C5" name="TBL_CRITERIOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="A6C643F7-2CB9-AF4B-0137-5697CE6E143C" name="TBL_MEDALLAS_X_USUARIOS">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:42:09 UTC</createdTime>
+<createdTime>2017-02-24 04:41:05 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<ordsAlias>table_58</ordsAlias>
+<ordsAlias>table_71</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_CRITERIO" id="8CCD7D31-B7B8-5325-57A5-28559A2AC778">
+<Column name="CODIGO_MAEDALLA" id="1C237CE5-1C93-1668-0FDA-0B3BBD4BD7EE">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:42:34 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="CODIGO_RUBRICA" id="6D9DBD90-5F93-90FD-004D-159176B1B3A3">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:57:53 UTC</createdTime>
+<createdTime>2017-02-24 05:28:29 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -29,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1A11D710-D40B-DC65-7CB1-CDE39B8EC860" referredColumn="0EFEE9B5-6100-EFF6-B28F-E50DD140D317"/>
+<colAssociation fkAssociation="98456F6A-76B4-DA3B-2822-92D5B38C6666" referredColumn="10FAA02B-B685-25E6-A596-2F874A7633B4"/>
 </associations>
 </Column>
-<Column name="CODIGO_ESCALA" id="102A4DC5-E8DE-1D5F-4B42-4AE0F3CF08E4">
+<Column name="CODIGO_USUARIO" id="DDDA3756-E7EE-B810-E41E-0ECAF27F18A6">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 04:50:22 UTC</createdTime>
+<createdTime>2017-02-24 04:43:11 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,21 +33,26 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="1F03D84B-4CA9-BC68-A943-D980255AAC6B" referredColumn="774423B3-C9B2-5712-A0D5-DC84CAF3C997"/>
+<colAssociation fkAssociation="B0D3BA49-7C9E-5D05-26EB-73FAAC013855" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
 </associations>
 </Column>
-<Column name="NOMBRE_CRITERIO" id="4895EE56-FFCB-23D3-9E18-27946BFCE86A">
+<Column name="CODIGO_USUARIO_ASIGNADOR" id="B961AA5F-818A-90B6-F22C-9668CF0D7C70">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:56:29 UTC</createdTime>
+<createdTime>2017-02-24 04:45:52 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD870AE4-9B92-DE58-684C-EF54508ADC95" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+</associations>
 </Column>
-<Column name="DESCRIPCION_CRITERIO" id="512A2857-F6FC-A1B9-58DF-9789F10D0DD0">
+<Column name="FECHA_ASIGNACION" id="3BCC678C-04C2-D982-EAE1-491361230B31">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:56:29 UTC</createdTime>
+<createdTime>2017-02-24 04:41:36 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -66,35 +61,47 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6C8A59F9-8325-3E42-6988-2EAE33561A28" name="TBL_RUBRICAS_EVALUACION_PK">
+<ind_PK_UK id="0D193ABD-1AA1-0475-FEFB-5FD2532A9133" name="TBL_MEDALLAS_X_USUARIOS_PK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 03:46:10 UTC</createdTime>
+<createdTime>2017-02-24 04:43:03 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="8CCD7D31-B7B8-5325-57A5-28559A2AC778"/>
+<colUsage columnID="DDDA3756-E7EE-B810-E41E-0ECAF27F18A6"/>
+<colUsage columnID="B961AA5F-818A-90B6-F22C-9668CF0D7C70"/>
+<colUsage columnID="1C237CE5-1C93-1668-0FDA-0B3BBD4BD7EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6DD67176-C00F-979C-B379-503F237D5A76" name="TBL_CRITERIOS_TBL_ESCALAS_FK">
+<ind_PK_UK id="98CC2516-6A4D-9C80-916C-740713BE808B" name="TBL_MEDALLAS_X_USUARIOS_TBL_MEDALLAS_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 04:50:22 UTC</createdTime>
+<createdTime>2017-02-24 04:42:54 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="102A4DC5-E8DE-1D5F-4B42-4AE0F3CF08E4"/>
+<colUsage columnID="1C237CE5-1C93-1668-0FDA-0B3BBD4BD7EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="18BCD0AF-AF7E-47A2-9B63-EC76653FB3E0" name="TBL_CRITERIOS_TBL_RUBRICAS_FK">
+<ind_PK_UK id="3DCCCCFE-E57D-C4F5-780B-553C700153BC" name="TBL_MEDALLAS_X_USUARIOS_TBL_USUARIO_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 04:50:49 UTC</createdTime>
+<createdTime>2017-02-24 04:43:11 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="6D9DBD90-5F93-90FD-004D-159176B1B3A3"/>
+<colUsage columnID="DDDA3756-E7EE-B810-E41E-0ECAF27F18A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A415B30-4060-ADF0-A1C7-C47375377436" name="TBL_MEDALLAS_X_USUARIOS_TBL_USUARIO_FKv1">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 04:45:52 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B961AA5F-818A-90B6-F22C-9668CF0D7C70"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

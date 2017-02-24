@@ -82,9 +82,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PUNTOS" id="D6393920-6E5F-4CA8-9413-B7F774038ACD">
+<Column name="VALOR_PUNTAJE" id="D6393920-6E5F-4CA8-9413-B7F774038ACD">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 04:07:41 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PUNTAJE_OBTENIDO" id="C2224DF6-BDCC-FEF7-D0CD-DB52C99E6FA1">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 03:53:30 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>

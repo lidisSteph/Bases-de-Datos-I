@@ -7,7 +7,7 @@
 <referredTableID>93426153-AC82-886F-1D6A-C4EBB6A9BDDC</referredTableID>
 <keyObject>68F3167F-DA37-6AA1-1885-E3AAD78FB46A</keyObject>
 <referredKeyID>68F3167F-DA37-6AA1-1885-E3AAD78FB46A</referredKeyID>
-<mandatory>true</mandatory>
+<mandatory>false</mandatory>
 <transferable>true</transferable>
 <rely>false</rely>
 <columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>

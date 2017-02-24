@@ -55,6 +55,15 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="ICONO_MATERIAL" id="9A32B890-2581-990F-DD1D-A9A78BE5302C">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 04:20:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="BD81BAE7-F71C-BCFC-A67A-673FB3AB11D9" name="TBL_MATERIALES_PK">

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B82D7A66-7821-6103-0F16-219FF2234106" name="TBL_ALBUMES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="394AFFBA-F399-B6C3-C061-09DE5BF11545" name="TBL_CARPETAS">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:06:52 UTC</createdTime>
+<createdTime>2017-02-24 04:15:24 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<ordsAlias>table_35</ordsAlias>
+<ordsAlias>table_68</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_ALBUM" id="194FA7ED-C568-DC49-1B4A-4292D818A273">
+<Column name="CODIGO_CARPETA" id="728E692A-4BC4-7CFB-9305-F4C4096DF047">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 01:24:14 UTC</createdTime>
+<createdTime>2017-02-24 04:15:46 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,21 +19,21 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="06EFFC91-E284-6169-E13D-4820BB6BCE89" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
+<colAssociation fkAssociation="434ABB24-3454-4F23-CE5E-3EB255996756" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
 </associations>
 </Column>
-<Column name="TITULO_ALBUM" id="4333320C-E2D8-47D9-FA7E-041083DEB462">
+<Column name="NOMBRE_CARPETA" id="A53CC75E-AAE4-02EC-86BA-7986F5AC3F8A">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 01:53:11 UTC</createdTime>
+<createdTime>2017-02-24 04:16:08 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DESCRIPCION_ALBUM" id="D38447AC-9D6A-1D01-B36F-FCD8B2BE2257">
+<Column name="COLOR_CARPETA" id="FD894FF4-4B04-DDD6-542B-03A7FD5664AA">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 01:53:11 UTC</createdTime>
+<createdTime>2017-02-24 04:17:03 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <use>0</use>
@@ -42,25 +42,25 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="D10C5DF7-DDA5-09D5-7BD4-CD09F5780A60" name="TBL_ALBUMES_PK">
+<ind_PK_UK id="D79620B6-C1E4-C366-2C83-18922B96A0B8" name="TBL_CARPETAS_PK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 01:23:37 UTC</createdTime>
+<createdTime>2017-02-24 04:16:08 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="194FA7ED-C568-DC49-1B4A-4292D818A273"/>
+<colUsage columnID="728E692A-4BC4-7CFB-9305-F4C4096DF047"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="40D696A6-0C17-7853-D7DB-F731C0781EFB" name="TBL_ALBUMES_TBL_MATERIALES_FK">
+<ind_PK_UK id="1689E8D5-327B-34FF-AC9C-27855DB8CC63" name="TBL_CARPETAS_TBL_MATERIALES_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 01:24:14 UTC</createdTime>
+<createdTime>2017-02-24 04:15:46 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="194FA7ED-C568-DC49-1B4A-4292D818A273"/>
+<colUsage columnID="728E692A-4BC4-7CFB-9305-F4C4096DF047"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
