@@ -575,7 +575,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="334" y="3545"/>
+<point x="319" y="3081"/>
 <point x="319" y="2785"/>
 </points>
 </Connector>
@@ -662,7 +662,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="581" y="3545"/>
+<point x="566" y="3081"/>
 <point x="566" y="2780"/>
 </points>
 </Connector>
@@ -1255,7 +1255,7 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <lineWidth>1</lineWidth>
 <points>
-<point x="1044" y="3518"/>
+<point x="1008" y="3054"/>
 <point x="1008" y="2772"/>
 </points>
 </Connector>
