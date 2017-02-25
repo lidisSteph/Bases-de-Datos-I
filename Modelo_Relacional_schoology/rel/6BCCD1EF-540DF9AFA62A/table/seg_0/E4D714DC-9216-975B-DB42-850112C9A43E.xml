@@ -12,16 +12,9 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 01:19:01 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="NOMBRE_TIPO_ESTUDIANTE" id="964B0139-4B4D-ECAD-3AFF-05F7CE31554B">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 01:19:01 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -30,7 +23,21 @@
 <createdTime>2017-02-20 01:19:01 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_TIPO_ESTUDIANTE" id="964B0139-4B4D-ECAD-3AFF-05F7CE31554B">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-20 01:19:01 UTC</createdTime>
+<commentInRDBMS>Hace referencia a como el estudiante, padre, instructor se considera en los estudios. Por ejemplo: Estudiante auditivo,visual o proactivo.</commentInRDBMS>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

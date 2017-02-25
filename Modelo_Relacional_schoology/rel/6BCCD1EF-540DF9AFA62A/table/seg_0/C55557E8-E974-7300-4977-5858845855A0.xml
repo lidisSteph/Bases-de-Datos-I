@@ -2,6 +2,7 @@
 <Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C55557E8-E974-7300-4977-5858845855A0" name="TBL_BLOG_POSTS">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 01:28:29 UTC</createdTime>
+<commentInRDBMS>Tabla que almacena los datos de las entradas  en el blog.</commentInRDBMS>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <ordsAlias>table_14</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
@@ -12,7 +13,9 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 03:04:27 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -36,7 +39,9 @@
 <createdTime>2017-02-20 01:29:14 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -45,7 +50,9 @@
 <createdTime>2017-02-20 01:29:14 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

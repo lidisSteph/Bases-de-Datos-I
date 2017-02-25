@@ -21,9 +21,12 @@
 <Column name="NOMBRE_ESTADO" id="B4CC0914-0970-2B56-32E1-55628D986A09">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 01:33:12 UTC</createdTime>
+<commentInRDBMS>Estados como ser: Activo, eliminado, en papelera, etc.</commentInRDBMS>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
@@ -32,7 +35,9 @@
 <createdTime>2017-02-21 01:33:12 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
