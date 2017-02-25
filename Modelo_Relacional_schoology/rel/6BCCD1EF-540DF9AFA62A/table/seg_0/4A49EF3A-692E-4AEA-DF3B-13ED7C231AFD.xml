@@ -119,17 +119,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="FACTOR" id="B4B22341-8087-B0C7-2FBC-48AA057C19C2">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:55:15 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 <Column name="PUNTAJE_OBTENIDO" id="90FE020C-B966-CF94-FD3B-0AE771F6E68D">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 03:53:22 UTC</createdTime>

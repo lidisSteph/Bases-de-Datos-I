@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75460093-5A00-ED62-D6D0-B6A65D578ADB" name="TBL_TIPOS_CALCULOS_EVALUACION">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A7B6526-A148-AA15-5286-84FAEB3A2B29" name="TBL_TIPOS_ASISTENCIAS">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:50:55 UTC</createdTime>
+<createdTime>2017-02-25 06:35:20 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<ordsAlias>table_54</ordsAlias>
+<ordsAlias>table_70</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_TIPO_CALCULO" id="588468BA-3057-7296-4927-0E7FB2A49522">
+<Column name="CODIGO_TIPO_ASISTENCIA" id="91DD47E7-FF94-A433-1879-91D014D76C53">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:51:44 UTC</createdTime>
+<createdTime>2017-02-25 06:36:11 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -18,28 +18,39 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="NOMBRE_TIPO_CALCULO" id="EAD0301E-EAA3-3A96-C9E1-8127F91B4C76">
+<Column name="NOMBRE_TIPO_ASISTENCIA" id="7BB0BF13-3062-2ADC-7519-8A56EB57561F">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:51:44 UTC</createdTime>
+<createdTime>2017-02-25 06:36:11 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ICONO_TIPO_ASISTENCIA" id="6F0B7390-0EF5-3ED2-52FE-84713B2D2158">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-25 06:36:11 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FC48D726-A2B1-E968-FF58-9178E1A7B884" name="TBL_TIPOS_CALCULOS_EVALUACION_PK">
+<ind_PK_UK id="12115DBF-D415-70A8-528C-16C338FB7F6B" name="TBL_TIPOS_ASISTENCIAS_PK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-21 02:51:44 UTC</createdTime>
+<createdTime>2017-02-25 06:36:11 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="588468BA-3057-7296-4927-0E7FB2A49522"/>
+<colUsage columnID="91DD47E7-FF94-A433-1879-91D014D76C53"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

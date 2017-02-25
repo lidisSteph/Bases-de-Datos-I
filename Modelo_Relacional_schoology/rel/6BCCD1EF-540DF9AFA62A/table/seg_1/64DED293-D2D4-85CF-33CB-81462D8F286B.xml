@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3443A3AB-ABB2-5358-F9F7-F5E8E343D403" name="TBL_LIKES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_1" id="64DED293-D2D4-85CF-33CB-81462D8F286B" name="TBL_PREGUNTAS_X_BANCOS">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:08:07 UTC</createdTime>
+<createdTime>2017-02-25 06:41:42 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<ordsAlias>table_67</ordsAlias>
+<ordsAlias>table_72</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_COMENTARIO" id="3493020A-C482-E393-14D6-944F4C917A76">
+<Column name="CODIGO_PREGUNTA" id="AF6E76E1-26C8-5B2B-A48B-A5B269954C31">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:09:58 UTC</createdTime>
+<createdTime>2017-02-25 06:42:13 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,12 +19,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="4130DA49-B15A-198B-B62A-14CEDF41BB59" referredColumn="B5CFF5EB-3842-161A-7594-6E2AEDC80AA7"/>
+<colAssociation fkAssociation="5B96CF09-3EEF-48ED-4FD8-3D9880E3396A" referredColumn="C5382B71-1DD0-EF34-64E1-15BFF60BC210"/>
 </associations>
 </Column>
-<Column name="CODIGO_USUARIO" id="A140AE8C-FB7B-C512-DF77-F6DDB7486BD5">
+<Column name="CODIGO_BANCO_PREGUNTAS" id="8021E70D-40AE-D26E-E9BC-AF954D052718">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:10:20 UTC</createdTime>
+<createdTime>2017-02-25 06:42:16 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,12 +33,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="54527CA9-7295-3373-FCD4-DD8AC8F37D72" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+<colAssociation fkAssociation="F3D9697F-B8C6-F648-A98D-F82D9F23028D" referredColumn="5592EBDB-EE7E-D52B-3028-BB5D42323646"/>
 </associations>
 </Column>
-<Column name="FECHA_LIKE" id="D5000F11-4BFC-5443-93FF-18204E638FDF">
+<Column name="FECHA_AGREGADA" id="FAB54543-321F-0E0D-C516-0CB33862A4E6">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:09:47 UTC</createdTime>
+<createdTime>2017-02-25 06:42:10 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -49,36 +49,36 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="8C236209-452C-AE1C-FEC0-0640D7BA7CA3" name="TBL_LIKES_PK">
+<ind_PK_UK id="603ACFD7-D4C9-90BC-9B26-B46DC2284866" name="TBL_PREGUNTAS_X_BANCOS_PK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:10:10 UTC</createdTime>
+<createdTime>2017-02-25 06:42:31 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3493020A-C482-E393-14D6-944F4C917A76"/>
-<colUsage columnID="A140AE8C-FB7B-C512-DF77-F6DDB7486BD5"/>
+<colUsage columnID="AF6E76E1-26C8-5B2B-A48B-A5B269954C31"/>
+<colUsage columnID="8021E70D-40AE-D26E-E9BC-AF954D052718"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="46CF3453-C1C3-5CEF-B7AD-39A126DD92F9" name="TBL_LIKES_TBL_COMENTARIOS_FK">
+<ind_PK_UK id="AE702443-B219-7794-C102-7E952D8CB474" name="TBL_PREGUNTAS_X_BANCOS_TBL_PREGUNTAS_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:09:58 UTC</createdTime>
+<createdTime>2017-02-25 06:42:13 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3493020A-C482-E393-14D6-944F4C917A76"/>
+<colUsage columnID="AF6E76E1-26C8-5B2B-A48B-A5B269954C31"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="39EF0637-F8CB-9DBF-73DA-2EBB04F7672A" name="TBL_LIKES_TBL_USUARIO_FK">
+<ind_PK_UK id="8F3BB685-5F90-69B0-7257-B6E25CEC7362" name="TBL_PREGUNTAS_X_BANCOS_TBL_BANCOS_PREGUNTAS_FK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:10:20 UTC</createdTime>
+<createdTime>2017-02-25 06:42:16 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="A140AE8C-FB7B-C512-DF77-F6DDB7486BD5"/>
+<colUsage columnID="8021E70D-40AE-D26E-E9BC-AF954D052718"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

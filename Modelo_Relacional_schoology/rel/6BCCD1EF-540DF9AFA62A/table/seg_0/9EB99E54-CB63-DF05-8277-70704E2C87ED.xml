@@ -1,26 +1,30 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="93426153-AC82-886F-1D6A-C4EBB6A9BDDC" name="TBL_ESTRUCTURAS_USUARIOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9EB99E54-CB63-DF05-8277-70704E2C87ED" name="TBL_BANCOS_PREGUNTAS">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:25:27 UTC</createdTime>
+<createdTime>2017-02-25 06:38:38 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<ordsAlias>table_37</ordsAlias>
+<ordsAlias>table_71</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="CODIGO_ESTRUCTURA" id="1A47C18C-FCB4-87BA-92C6-756575BE252D">
+<Column name="CODIGO_BANCO_PREGUNTAS" id="5592EBDB-EE7E-D52B-3028-BB5D42323646">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:29:04 UTC</createdTime>
+<createdTime>2017-02-25 06:40:01 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7FBF55ED-DC46-8537-088C-587BF5A2342E" referredColumn="7522FBE5-A506-F2B8-BFD6-BE87697AFBF5"/>
+</associations>
 </Column>
-<Column name="DESCRIPCION" id="721B39AE-96D5-2894-23A7-0EDD2D20C826">
+<Column name="NOMBRE_BANCO_PREGUNTAS" id="497427AA-F6A5-D625-F406-216DA259DC69">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:33:30 UTC</createdTime>
+<createdTime>2017-02-25 06:39:08 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -29,39 +33,38 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="MODERACION" id="79C693D6-C16D-7BE3-A3FA-F6BCC15A7A81">
+<Column name="DESCRIPCION" id="5F858F6C-3FE5-1D56-AC22-AC8789C00D8C">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:33:15 UTC</createdTime>
+<createdTime>2017-02-25 06:39:55 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="ICONO_ESTRUCTURA" id="D6A85D2E-F09F-2DC3-4F07-205406169261">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:21:39 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT029</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="68F3167F-DA37-6AA1-1885-E3AAD78FB46A" name="TBL_ESTRUCTURAS_USUARIOS_PK">
+<ind_PK_UK id="2070C6A2-036B-2B7A-CEE9-C98984D97967" name="TBL_BANCO_PREGUNTAS_PK">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-20 03:29:04 UTC</createdTime>
+<createdTime>2017-02-25 06:40:30 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1A47C18C-FCB4-87BA-92C6-756575BE252D"/>
+<colUsage columnID="5592EBDB-EE7E-D52B-3028-BB5D42323646"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC5DE77C-5461-74A5-EF2B-950799EEB934" name="TBL_BANCO_PREGUNTAS_TBL_MATERIALES_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-25 06:40:01 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5592EBDB-EE7E-D52B-3028-BB5D42323646"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
