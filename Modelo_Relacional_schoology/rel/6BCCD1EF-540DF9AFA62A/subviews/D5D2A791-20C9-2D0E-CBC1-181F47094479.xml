@@ -26,11 +26,6 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="2907" y="1913" width="443" height="126"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="05C0A51A-1D10-5E0F-A3A3-E66251B9CCC7" otype="Note" vid="D8F9A554-2FF1-8F1E-2F0E-6355B0B73BE3">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="83" y="2485" width="95" height="40"/>
-<comment>Duda: FACTOR</comment>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="05D8F36C-52E0-E3F8-6BEC-2E1B2D538C12" otype="Table" vid="B54AFDA7-0C34-A65B-B465-7C31159BF6C4">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="622" y="1164" width="413" height="86"/>
@@ -306,11 +301,6 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="3523" y="1614" width="387" height="153"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="9C0080A2-BB9E-FDDA-3E48-19FD698F961A" otype="Note" vid="74752769-AA89-579D-00AA-E0614AD28B4F">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="1319" y="3293" width="95" height="61"/>
-<comment>Duda: A que se refiere TBL_CRITERIOS</comment>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="9EB99E54-CB63-DF05-8277-70704E2C87ED" otype="Table" vid="D08C0990-AD80-4BC7-F363-ACAB435055DC">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1092" y="2151" width="265" height="119"/>
@@ -351,11 +341,6 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="1935" y="2552" width="311" height="135"/>
 </OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="BAEB935D-BE5F-88B5-8F2F-4744D634DF9F" otype="Note" vid="032C49AA-C528-0DDC-EA5B-C296E8BADC78">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="232" y="2231" width="95" height="40"/>
-<comment>Duda: ES_CORRECTA</comment>
-</OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C5520B6F-0AD3-D7D7-16FE-AC89ECDA3860" otype="Table" vid="57DD3DC8-A1AB-82EE-553E-EC002CC40E7B">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="2348" y="2713" width="349" height="144"/>
@@ -367,11 +352,6 @@
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="C90AFC7D-942B-522D-FA40-C37225779BAF" otype="Table" vid="84D860EE-94F6-A53C-AE66-88406AD1749A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="3589" y="2062" width="384" height="147"/>
-</OView>
-<OView class="oracle.dbtools.crest.swingui.TVNote" oid="D385C6C4-1020-77EF-9A2E-87A9F9CF5F89" otype="Note" vid="32FBD959-E9D3-D0D4-2EF8-3D92AA0A236D">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="531" y="1943" width="109" height="71"/>
-<comment>Duda: Tipo de dato de CONTENIDO_ENTREGA</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D3F44E80-9C69-BBC2-8722-132A5C8C4793" otype="Table" vid="9BA217F1-95FB-8528-2DE5-11B68C6AC0FB">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
