@@ -23,11 +23,11 @@
 <createdTime>2017-02-21 03:02:13 UTC</createdTime>
 <commentInRDBMS>Periodos de tiempo como ser parcial, semestre,trimestre, etc.</commentInRDBMS>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="FECHA_INICIO_PERIODO" id="58590C6A-052E-380A-8371-5A3CA878DC0A">

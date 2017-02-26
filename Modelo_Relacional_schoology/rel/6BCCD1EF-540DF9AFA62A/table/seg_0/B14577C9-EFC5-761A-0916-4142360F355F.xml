@@ -30,7 +30,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1000</dataTypeSize>
+<ownDataTypeParameters>1000,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -46,7 +47,7 @@
 <colUsage columnID="1EE537F3-A453-39A7-A0ED-B3116AB912DA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A47DC2AC-4B14-41A5-D896-3F20D792BA5B" name="TBL_ACTUALIZACIONES_TBL_MATERIALES_FK">
+<ind_PK_UK id="A47DC2AC-4B14-41A5-D896-3F20D792BA5B" name="TBL_ACTUALIZA_TBL_MATERIAL_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:05:19 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
