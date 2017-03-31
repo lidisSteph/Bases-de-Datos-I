@@ -58,7 +58,7 @@
 <colUsage columnID="5592EBDB-EE7E-D52B-3028-BB5D42323646"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DC5DE77C-5461-74A5-EF2B-950799EEB934" name="TBL_BANCO_PREGUNTAS_TBL_MATERIALES_FK">
+<ind_PK_UK id="DC5DE77C-5461-74A5-EF2B-950799EEB934" name="TBL_BANK_PREGU_TBL_MAT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-25 06:40:01 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

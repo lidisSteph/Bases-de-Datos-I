@@ -50,7 +50,7 @@
 <colUsage columnID="AAD52DFF-7995-02C2-7B57-E9CC3E8F3152"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B0885421-DA2D-37ED-41EB-3FD1B6DE37CE" name="TBL_FOTOS_X_ALBUMES_TBL_FOTOS_FK">
+<ind_PK_UK id="B0885421-DA2D-37ED-41EB-3FD1B6DE37CE" name="UMES_TBL_FOTOS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 02:02:03 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -60,7 +60,7 @@
 <colUsage columnID="AAD52DFF-7995-02C2-7B57-E9CC3E8F3152"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="54B52FC3-C8A2-E688-5C93-B30A9FD08F6E" name="TBL_FOTOS_X_ALBUMES_TBL_ALBUMES_FK">
+<ind_PK_UK id="54B52FC3-C8A2-E688-5C93-B30A9FD08F6E" name="UMES_TBL_ALBUMES_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 02:02:08 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

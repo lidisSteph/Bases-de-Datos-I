@@ -70,7 +70,7 @@
 <colUsage columnID="21510DC2-622C-19D2-0822-164D530E6666"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="367E4D7A-0EB5-4ED4-B4EA-A1AD362B043B" name="TBL_CATEGORIAS_CALIFICACION_TBL_PUNTAJES_BAJOS_FK">
+<ind_PK_UK id="367E4D7A-0EB5-4ED4-B4EA-A1AD362B043B" name="IF_TBL_PUNT_BAJ_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 02:52:37 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -80,7 +80,7 @@
 <colUsage columnID="D6B6BC95-2861-E9E2-60A4-BE068135508D"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C7A98DA2-07E7-1FEA-AF5B-FEB917C9FD21" name="TBL_CATEGORIAS_CALIFICACION_TBL_TIPOS_CALCULOS_EVALUACION_FK">
+<ind_PK_UK id="C7A98DA2-07E7-1FEA-AF5B-FEB917C9FD21" name="L_TIP_CALC_EVAL_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 02:52:40 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

@@ -61,7 +61,7 @@
 <colUsage columnID="023FA160-679F-5528-764F-23FFBE73FAC5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B89103E2-FDCA-132B-8F5C-997CF8C0A0CF" name="TBL_MATERIALES_X_USUARIOS_TBL_USUARIO_FK">
+<ind_PK_UK id="B89103E2-FDCA-132B-8F5C-997CF8C0A0CF" name="_MAT_X_US_TBL_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-03-31 01:05:39 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -71,7 +71,7 @@
 <colUsage columnID="49516FFD-8DC2-8DE3-EC82-3BBCBF2EE15E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BD0D9673-90E6-06AE-E8BB-234FD28822EF" name="TBL_MATERIALES_X_USUARIOS_TBL_MATERIALES_FK">
+<ind_PK_UK id="BD0D9673-90E6-06AE-E8BB-234FD28822EF" name="_X_US_TBL_MAT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-03-31 01:05:44 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

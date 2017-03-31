@@ -76,7 +76,7 @@
 <colUsage columnID="1C237CE5-1C93-1668-0FDA-0B3BBD4BD7EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="98CC2516-6A4D-9C80-916C-740713BE808B" name="TBL_MEDALLAS_X_USUARIOS_TBL_MEDALLAS_FK">
+<ind_PK_UK id="98CC2516-6A4D-9C80-916C-740713BE808B" name="MED_X_USU_TBL_MED_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 04:42:54 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -86,7 +86,7 @@
 <colUsage columnID="1C237CE5-1C93-1668-0FDA-0B3BBD4BD7EE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3DCCCCFE-E57D-C4F5-780B-553C700153BC" name="TBL_MEDALLAS_X_USUARIOS_TBL_USUARIO_FK">
+<ind_PK_UK id="3DCCCCFE-E57D-C4F5-780B-553C700153BC" name="TBL_MED_X_US_TBL_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 04:43:11 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -96,7 +96,7 @@
 <colUsage columnID="DDDA3756-E7EE-B810-E41E-0ECAF27F18A6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8A415B30-4060-ADF0-A1C7-C47375377436" name="TBL_MEDALLAS_X_USUARIOS_TBL_USUARIO_FKv1">
+<ind_PK_UK id="8A415B30-4060-ADF0-A1C7-C47375377436" name="L_MED_X_US_TBL_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 04:45:52 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

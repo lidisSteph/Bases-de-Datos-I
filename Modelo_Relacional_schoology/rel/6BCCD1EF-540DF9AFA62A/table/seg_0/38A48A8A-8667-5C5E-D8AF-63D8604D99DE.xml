@@ -26,7 +26,8 @@
 <createdBy>Gissel Lanza</createdBy>
 <createdTime>2017-02-20 23:07:53 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -94,7 +95,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AB3D52EC-1BC9-ECBB-CF4D-A0089C10BA16" name="TBL_NOTIFICACIONES_CURSOS_TBL_NOTIFICACIONES_FK">
+<ind_PK_UK id="AB3D52EC-1BC9-ECBB-CF4D-A0089C10BA16" name="TBL_NOTIF_CU_TBL_NOTIF_FK">
 <createdBy>Gissel Lanza</createdBy>
 <createdTime>2017-02-20 23:05:41 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -104,7 +105,7 @@
 <colUsage columnID="D0F1DC15-1A4C-3BE8-789E-09055CBE3100"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="D8036790-732F-7C8B-B34C-4D87135C0F3F" name="TBL_NOTIFICACIONES_CURSOS_TBL_ESTADOS_NOTIFICACIONES_FK">
+<ind_PK_UK id="D8036790-732F-7C8B-B34C-4D87135C0F3F" name="F_CUR_TBL_EST_NOTIF_FK">
 <createdBy>Gissel Lanza</createdBy>
 <createdTime>2017-02-20 23:07:53 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -114,7 +115,7 @@
 <colUsage columnID="06637C8F-665D-1C40-988E-F1D4501780A4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="DB182A36-5C1C-A6B4-F6E2-611002580E1C" name="TBL_NOTIFICACIONES_TBL_ESTRUCTURAS_USUARIOS_FK">
+<ind_PK_UK id="DB182A36-5C1C-A6B4-F6E2-611002580E1C" name="TBL_NOTIF_TBL_ESTR_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:48:06 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -124,7 +125,7 @@
 <colUsage columnID="8F886C53-060B-5D65-77DE-15C988DBED4E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="3E7A857F-95C2-6813-202D-E6B8C5530ECB" name="TBL_NOTIFICACIONES_TBL_MATERIALES_FK">
+<ind_PK_UK id="3E7A857F-95C2-6813-202D-E6B8C5530ECB" name="TBL_NOTIF_TBL_MAT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 04:31:44 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -134,7 +135,7 @@
 <colUsage columnID="E157A57A-C090-BCB9-EF0A-484272018DFF"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A9691E0E-C32C-6C52-A421-CEFE21241A4C" name="TBL_NOTIFICACIONES_TBL_USUARIO_FK">
+<ind_PK_UK id="A9691E0E-C32C-6C52-A421-CEFE21241A4C" name="TBL_NOTIFICACIONES_TBL_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 05:26:22 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -144,7 +145,7 @@
 <colUsage columnID="BA7A430C-258D-8E8B-B83A-7D4A1CBB80C4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6B241A08-52B4-C20E-B1C2-69800BAECE48" name="TBL_NOTIFICACIONES_TBL_COMENTARIOS_FK">
+<ind_PK_UK id="6B241A08-52B4-C20E-B1C2-69800BAECE48" name="TBL_NOTIF_TBL_COMENT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 05:40:38 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

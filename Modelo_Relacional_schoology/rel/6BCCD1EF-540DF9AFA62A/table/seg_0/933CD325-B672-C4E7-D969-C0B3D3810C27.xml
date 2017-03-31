@@ -64,7 +64,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7226531C-3296-E1A7-DE02-06AA1CCB3F6C" name="TBL_PARTICIPANTES_X_CURSOS_TBL_USUARIO_FK">
+<ind_PK_UK id="7226531C-3296-E1A7-DE02-06AA1CCB3F6C" name="_CUR_TBL_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 01:04:58 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -74,7 +74,7 @@
 <colUsage columnID="FE191A9F-5C27-AB76-BE48-12649449E1D1"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FE3AFE11-9B2E-4B26-A287-6D06F10CADF6" name="TBL_USUARIOS_X_ESTRUCTURAS_TBL_ESTRUCTURAS_USUARIOS_FK">
+<ind_PK_UK id="FE3AFE11-9B2E-4B26-A287-6D06F10CADF6" name="TBL_ESTR_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 01:06:46 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -84,7 +84,7 @@
 <colUsage columnID="9D04DE8F-0FC7-758D-D7BD-242907B38661"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="44002EE7-F232-4B81-C8E4-519988CB7116" name="TBL_USUARIOS_X_ESTRUCTURAS_TBL_ROLES_FK">
+<ind_PK_UK id="44002EE7-F232-4B81-C8E4-519988CB7116" name="R_TBL_ROLES_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 01:07:46 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

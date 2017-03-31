@@ -85,7 +85,7 @@
 <colUsage columnID="C3159E5E-7B8C-83D5-921A-2A6D120A4C27"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0F8FA9FA-9E4B-9D7F-378A-FF92BF0EA320" name="TBL_GRUPOS_TBL_ESTRUCTURAS_USUARIOS_FK">
+<ind_PK_UK id="0F8FA9FA-9E4B-9D7F-378A-FF92BF0EA320" name="UCTURAS_USUARIOS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 03:29:55 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -95,7 +95,7 @@
 <colUsage columnID="89195C2A-068B-968F-C28A-76AA32A4D8D6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="610B5264-18B6-FEA4-1E8D-CB9E9FE3E099" name="TBL_GRUPOS_TBL_CATEGORIAS_GRUPOS_FK">
+<ind_PK_UK id="610B5264-18B6-FEA4-1E8D-CB9E9FE3E099" name="ATEGORIAS_GRUPOS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 03:34:48 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

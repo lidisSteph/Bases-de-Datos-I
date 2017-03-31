@@ -72,7 +72,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="EB4BFE8F-F4FC-8C3B-6BBD-F80A2EF6267A" name="TBL_ADJUNTOS_X_ACT_TBL_ACTUALIZACIONES_FK">
+<ind_PK_UK id="EB4BFE8F-F4FC-8C3B-6BBD-F80A2EF6267A" name="TBL_ADJ_X_ACT_TBL_ACT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 02:29:48 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

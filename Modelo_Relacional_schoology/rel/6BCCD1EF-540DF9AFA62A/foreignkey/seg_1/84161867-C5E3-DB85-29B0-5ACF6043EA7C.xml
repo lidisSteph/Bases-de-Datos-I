@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="84161867-C5E3-DB85-29B0-5ACF6043EA7C" containerWithKeyObject="6280F966-9811-ECF3-010E-6106DD9CE09C" localFKIndex="5D027A1C-9212-626E-2EC3-5170D11AB925" name="TBL_MATERIALES_X_CARPETA_TBL_MATERIALES_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="84161867-C5E3-DB85-29B0-5ACF6043EA7C" containerWithKeyObject="6280F966-9811-ECF3-010E-6106DD9CE09C" localFKIndex="5D027A1C-9212-626E-2EC3-5170D11AB925" name="T_X_CARP_TBL_MAT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 04:17:36 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

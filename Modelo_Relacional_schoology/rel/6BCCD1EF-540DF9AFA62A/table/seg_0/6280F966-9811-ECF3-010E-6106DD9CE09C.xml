@@ -61,7 +61,7 @@
 <colUsage columnID="19F467A0-5B5B-2A0E-C970-DC48D42E1000"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="5D027A1C-9212-626E-2EC3-5170D11AB925" name="TBL_MATERIALES_X_CARPETA_TBL_MATERIALES_FK">
+<ind_PK_UK id="5D027A1C-9212-626E-2EC3-5170D11AB925" name="T_X_CARP_TBL_MAT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 04:17:36 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -71,7 +71,7 @@
 <colUsage columnID="A6A36883-A9AF-A376-21D9-10B44919A543"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="19429652-75BB-F455-1937-B430816C0AA6" name="TBL_MATERIALES_X_CARPETA_TBL_CARPETAS_FK">
+<ind_PK_UK id="19429652-75BB-F455-1937-B430816C0AA6" name="T_X_CARP_TBL_CARP_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 04:17:42 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

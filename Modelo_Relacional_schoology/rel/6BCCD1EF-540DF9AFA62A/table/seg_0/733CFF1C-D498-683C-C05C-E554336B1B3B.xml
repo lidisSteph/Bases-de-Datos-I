@@ -26,6 +26,7 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 02:27:59 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -49,7 +50,7 @@
 <colUsage columnID="1FEC1DBC-4E39-8F95-9485-DA345CB2B14E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="065A110C-1331-16BD-EA64-09EE2CA1F16F" name="TBL_CURSOS_X_DIAS_TBL_CURSOS_FK">
+<ind_PK_UK id="065A110C-1331-16BD-EA64-09EE2CA1F16F" name="RSOS_X_DIAS_TBL_CURSOS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 02:27:55 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -59,7 +60,7 @@
 <colUsage columnID="1FEC1DBC-4E39-8F95-9485-DA345CB2B14E"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="078422D9-89DC-6749-862E-A1B7CAA83924" name="TBL_CURSOS_X_DIAS_TBL_DIAS_FK">
+<ind_PK_UK id="078422D9-89DC-6749-862E-A1B7CAA83924" name="RSOS_X_DIAS_TBL_DIAS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 02:27:59 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

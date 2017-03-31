@@ -105,7 +105,7 @@
 <colUsage columnID="3ED31B4C-5A04-AE77-2770-A2B864AC04F9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="9F4810DF-5316-C4E1-2B87-2874FB282D4B" name="TBL_NIVEL_ESCALA_TBL_ESCALAS_FK">
+<ind_PK_UK id="9F4810DF-5316-C4E1-2B87-2874FB282D4B" name="ESCALA_TBL_ESCALAS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 04:47:24 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

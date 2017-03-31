@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B49851D6-5D79-25D6-66DF-1586577E83D1" containerWithKeyObject="2E3BC953-B252-3125-526E-6F55C32370F1" localFKIndex="41FC0649-5B9C-FD22-01AC-42CE37C650D7" name="TBL_USUARIO_TBL_ZONAS_HORARIAS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B49851D6-5D79-25D6-66DF-1586577E83D1" containerWithKeyObject="2E3BC953-B252-3125-526E-6F55C32370F1" localFKIndex="41FC0649-5B9C-FD22-01AC-42CE37C650D7" name="IO_TBL_ZONAS_HORARIAS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 00:39:59 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

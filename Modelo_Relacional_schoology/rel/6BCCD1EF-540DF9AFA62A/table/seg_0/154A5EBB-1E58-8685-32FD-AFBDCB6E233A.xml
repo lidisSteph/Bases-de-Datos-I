@@ -107,7 +107,7 @@
 <colUsage columnID="6613C1D6-0F03-9FB4-FE45-A432069EB5CE"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="CCDEAE6B-6344-0B26-DE4F-01D79FE151E4" name="TBL_ENTREGAS_TAREAS_TBL_ESTADOS_ENTREGAS_FK">
+<ind_PK_UK id="CCDEAE6B-6344-0B26-DE4F-01D79FE151E4" name="NTR_TAR_TBL_EST_ENTR_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:24:05 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -117,7 +117,7 @@
 <colUsage columnID="B95E7A64-D81A-4CAB-81DE-695B5A035C72"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C02FF00-770B-E094-B763-2A844805809F" name="TBL_ENTREGAS_TAREAS_TBL_TAREAS_FK">
+<ind_PK_UK id="0C02FF00-770B-E094-B763-2A844805809F" name="AREAS_TBL_TAREAS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:24:53 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -127,7 +127,7 @@
 <colUsage columnID="A5C26704-110B-0B06-EF27-13949E3FBEAA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="90E56628-A50B-8611-12D0-C55D54A63A89" name="TBL_ENTREGAS_TAREAS_TBL_USUARIO_FK">
+<ind_PK_UK id="90E56628-A50B-8611-12D0-C55D54A63A89" name="REAS_TBL_USUARIO_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:25:09 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

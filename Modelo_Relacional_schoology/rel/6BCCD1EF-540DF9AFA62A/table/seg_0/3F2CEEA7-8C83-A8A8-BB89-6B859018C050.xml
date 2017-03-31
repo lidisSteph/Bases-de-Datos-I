@@ -134,7 +134,7 @@
 <colUsage columnID="C2407F95-7E4D-0CDA-D015-689718522143"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="293804AA-9524-C809-8C57-0D3699AD1D19" name="TBL_PRUEBAS_TBL_CATEGORIAS_CALIFICACION_FK">
+<ind_PK_UK id="293804AA-9524-C809-8C57-0D3699AD1D19" name="TBL_PRUEBAS_TBL_CAT_CALIF_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 04:10:29 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -144,7 +144,7 @@
 <colUsage columnID="EB17EC0F-2DE8-FFA8-4BEF-346A89237EBB"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A5FADC59-7B3F-8512-6EC8-59BFDF3DE323" name="TBL_PRUEBAS_TBL_PERIODOS_EVALUACION_FK">
+<ind_PK_UK id="A5FADC59-7B3F-8512-6EC8-59BFDF3DE323" name="BAS_TBL_PERIODOS_EVALUACION_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 04:10:34 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

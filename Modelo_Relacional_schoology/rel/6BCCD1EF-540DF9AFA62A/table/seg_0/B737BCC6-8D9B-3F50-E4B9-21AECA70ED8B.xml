@@ -65,7 +65,7 @@
 <colUsage columnID="9B5DCBFB-7E08-E891-4DCC-E60E5BB51D9A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="10791FF5-C6CC-A50A-AAA0-979EC2483107" name="TBL_MAT_X_ESTRUC_TBL_MATERIALES_FK">
+<ind_PK_UK id="10791FF5-C6CC-A50A-AAA0-979EC2483107" name="AT_X_ESTRUC_TBL_MATERIALES_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 05:14:15 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -75,7 +75,7 @@
 <colUsage columnID="4F3DEF77-DBB4-E063-2DCF-407C3917D86C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="43538D39-933A-623F-5E11-E4EA75C988E9" name="TBL_MAT_X_ESTRUC_TBL_ESTRUCTURAS_USUARIOS_FK">
+<ind_PK_UK id="43538D39-933A-623F-5E11-E4EA75C988E9" name="L_MAT_X_ESTRUC_TBL_ESTR_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 05:14:20 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -85,7 +85,7 @@
 <colUsage columnID="39C9106B-701E-8AB3-D6ED-280D4CFCD0E5"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="F596A98F-700E-1AE8-1B9A-AB19B86C1970" name="TBL_MAT_X_ESTRUC_TBL_USUARIO_FK">
+<ind_PK_UK id="F596A98F-700E-1AE8-1B9A-AB19B86C1970" name="_MAT_X_ESTRUC_TBL_USUARIO_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 05:14:24 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

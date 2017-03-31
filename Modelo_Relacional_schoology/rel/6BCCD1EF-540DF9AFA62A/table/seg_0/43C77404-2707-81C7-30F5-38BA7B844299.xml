@@ -39,7 +39,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AD2A38AC-A9A4-67F5-FBA6-BF82B73CBF2D" name="TBL_CONF_X_MATERIALES_TBL_MATERIALES_FK">
+<ind_PK_UK id="AD2A38AC-A9A4-67F5-FBA6-BF82B73CBF2D" name="ONF_X_MAT_TBL_MAT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 03:59:29 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -49,7 +49,7 @@
 <colUsage columnID="73FAB7BD-F545-0E63-C6D8-58D7123D4145"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="2C1036B6-34BC-B436-F80F-5EA6A1709FF6" name="TBL_CONF_X_MATERIALES_TBL_CONFIGURACIONES_FK">
+<ind_PK_UK id="2C1036B6-34BC-B436-F80F-5EA6A1709FF6" name="NF_X_MAT_TBL_CONF_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 03:59:32 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

@@ -61,7 +61,7 @@
 <colUsage columnID="8021E70D-40AE-D26E-E9BC-AF954D052718"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="AE702443-B219-7794-C102-7E952D8CB474" name="TBL_PREGUNTAS_X_BANCOS_TBL_PREGUNTAS_FK">
+<ind_PK_UK id="AE702443-B219-7794-C102-7E952D8CB474" name="_PR_X_BA_TBL_PRE_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-25 06:42:13 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -71,7 +71,7 @@
 <colUsage columnID="AF6E76E1-26C8-5B2B-A48B-A5B269954C31"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="8F3BB685-5F90-69B0-7257-B6E25CEC7362" name="TBL_PREGUNTAS_X_BANCOS_TBL_BANCOS_PREGUNTAS_FK">
+<ind_PK_UK id="8F3BB685-5F90-69B0-7257-B6E25CEC7362" name="TBL_BAN_PREG_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-25 06:42:16 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

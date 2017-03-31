@@ -144,7 +144,7 @@
 <colUsage columnID="B5CFF5EB-3842-161A-7594-6E2AEDC80AA7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="66DD9C2E-947D-17C0-5584-608C29AC1116" name="TBL_COMENTARIOS_TBL_TAREAS_FK">
+<ind_PK_UK id="66DD9C2E-947D-17C0-5584-608C29AC1116" name="OMENTARIOS_TBL_TAREAS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:08:46 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -154,7 +154,7 @@
 <colUsage columnID="3E9F9405-7B01-0FF0-CD47-A200945C6064"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6F954623-15C6-9227-5A0C-E8512017E6AD" name="TBL_COMENTARIOS_TBL_PRUEBAS_FK">
+<ind_PK_UK id="6F954623-15C6-9227-5A0C-E8512017E6AD" name="NTARIOS_TBL_PRUEBAS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:08:56 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -164,7 +164,7 @@
 <colUsage columnID="04B6478F-D5BD-DC80-A701-16DEC5F28E4C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="534605DA-F986-7262-E686-F47B0274102D" name="TBL_COMENTARIOS_TBL_DISCUSIONES_FK">
+<ind_PK_UK id="534605DA-F986-7262-E686-F47B0274102D" name="RIOS_TBL_DISCUSIONES_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:09:03 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -184,7 +184,7 @@
 <colUsage columnID="0C8B568A-ECCF-4550-D214-411890B4A245"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="ED24B297-2810-9B47-411A-872B11502CEB" name="TBL_COMENTARIOS_TBL_ACTUALIZACIONES_FK">
+<ind_PK_UK id="ED24B297-2810-9B47-411A-872B11502CEB" name="BL_ACTUALIZACIONES_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:12:55 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -194,7 +194,7 @@
 <colUsage columnID="C6908B22-C181-AB8E-A5F7-0263B3B7F9FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="105DCC23-A0D6-5E21-6E59-4A45EB294E99" name="TBL_COMENTARIOS_TBL_COMENTARIOS_FK">
+<ind_PK_UK id="105DCC23-A0D6-5E21-6E59-4A45EB294E99" name="S_TBL_COMENTARIOS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:15:56 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

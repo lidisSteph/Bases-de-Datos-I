@@ -74,7 +74,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FD0D99DB-CFBA-72CD-13DB-6B6BF1468151" name="TBL_ASISTENCIAS_X_USUARIOS_TBL_USUARIO_FK">
+<ind_PK_UK id="FD0D99DB-CFBA-72CD-13DB-6B6BF1468151" name="IS_X_US_TBL_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-25 06:33:55 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -84,7 +84,7 @@
 <colUsage columnID="1802BA63-F271-B4F7-72C1-AC175F64BF7B"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="1848BBE0-AB23-A850-C2F3-1C6F492AD711" name="TBL_ASISTENCIAS_X_USUARIOS_TBL_ESTRUCTURAS_USUARIOS_FK">
+<ind_PK_UK id="1848BBE0-AB23-A850-C2F3-1C6F492AD711" name="X_US_TBL_ESTR_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-25 06:35:04 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -94,7 +94,7 @@
 <colUsage columnID="AA1B7022-B68B-4BA8-B126-12879295BCB6"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A2A27A60-9D9C-F44B-C1D5-6F04179B0C6E" name="TBL_ASISTENCIAS_X_USUARIOS_TBL_TIPOS_ASISTENCIAS_FK">
+<ind_PK_UK id="A2A27A60-9D9C-F44B-C1D5-6F04179B0C6E" name="_US_TBL_TIP_ASIS_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-25 06:36:16 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

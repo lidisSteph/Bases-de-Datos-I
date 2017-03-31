@@ -12,7 +12,8 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:52:48 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -24,7 +25,8 @@
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:52:43 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -52,7 +54,8 @@
 <createdTime>2017-02-21 00:52:55 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
-<use>0</use>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
@@ -75,7 +78,7 @@
 <colUsage columnID="FDE34C21-4A0F-31EB-8090-F98BB2A211C8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="81C4D3FE-D98A-0694-756C-4B1D9738C076" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_ALCANCE_FK">
+<ind_PK_UK id="81C4D3FE-D98A-0694-756C-4B1D9738C076" name="TBL_ATR_PRIv_TBL_ALCANCE_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:52:43 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -85,7 +88,7 @@
 <colUsage columnID="68D28798-50D1-339D-033A-12E04141559A"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="BD83C6F5-394E-AB87-4459-581EAFC29919" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_ATRIBUTOS_PRIVACIDAD_FK">
+<ind_PK_UK id="BD83C6F5-394E-AB87-4459-581EAFC29919" name="TBL_ATR_PRIV_TBL_ATR_PRIV_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:52:48 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -95,7 +98,7 @@
 <colUsage columnID="8BFC3BBA-ACE3-1663-8CA2-025379EB00A8"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="342C439B-A3D3-4C32-8390-945D8134A40B" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_USUARIO_FK">
+<ind_PK_UK id="342C439B-A3D3-4C32-8390-945D8134A40B" name="TBL_ATRS_PRIV_TBL_USUARIO_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:52:51 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -105,7 +108,7 @@
 <colUsage columnID="23C00820-1A72-CEE6-E036-BBFFE3CE91F4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD402B87-6D10-4821-1B02-578FE391665E" name="TBL_ATRIBUTOS_PRIVACIDADv1_TBL_ESTRUCTURAS_USUARIOS_FK">
+<ind_PK_UK id="FD402B87-6D10-4821-1B02-578FE391665E" name="TBL_ATR_PRIV_TBL_ESTR_US_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:52:55 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

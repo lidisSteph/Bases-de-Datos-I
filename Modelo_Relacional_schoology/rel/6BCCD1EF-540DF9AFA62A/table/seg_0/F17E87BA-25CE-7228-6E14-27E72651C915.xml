@@ -50,7 +50,7 @@
 <colUsage columnID="796AD935-4530-647D-F993-4F264C5794CD"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="7C060E04-AAA6-4D77-4F44-CEE815E9A57C" name="TBL_ESTUDIANTES_X_PADRES_TBL_ESTUDIANTE_FK">
+<ind_PK_UK id="7C060E04-AAA6-4D77-4F44-CEE815E9A57C" name="STU_X_PAD_TBL_ESTU_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:59:14 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
@@ -60,7 +60,7 @@
 <colUsage columnID="EBC5AB49-C468-F62C-89FA-3D52021ED481"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="B0630F34-E09A-C37D-CF03-3BB81D7FDE64" name="TBL_ESTUDIANTES_X_PADRES_TBL_PADRE_FK">
+<ind_PK_UK id="B0630F34-E09A-C37D-CF03-3BB81D7FDE64" name="_PAD_TBL_PAD_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 00:59:23 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

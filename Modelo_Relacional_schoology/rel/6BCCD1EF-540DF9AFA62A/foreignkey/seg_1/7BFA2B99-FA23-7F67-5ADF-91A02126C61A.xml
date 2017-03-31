@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="7BFA2B99-FA23-7F67-5ADF-91A02126C61A" containerWithKeyObject="38A48A8A-8667-5C5E-D8AF-63D8604D99DE" localFKIndex="6B241A08-52B4-C20E-B1C2-69800BAECE48" name="TBL_NOTIFICACIONES_TBL_COMENTARIOS_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_1" id="7BFA2B99-FA23-7F67-5ADF-91A02126C61A" containerWithKeyObject="38A48A8A-8667-5C5E-D8AF-63D8604D99DE" localFKIndex="6B241A08-52B4-C20E-B1C2-69800BAECE48" name="TBL_NOTIF_TBL_COMENT_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 05:40:38 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>

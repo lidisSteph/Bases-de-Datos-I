@@ -31,7 +31,7 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FC48D726-A2B1-E968-FF58-9178E1A7B884" name="TBL_TIPOS_CALCULOS_EVALUACION_PK">
+<ind_PK_UK id="FC48D726-A2B1-E968-FF58-9178E1A7B884" name="TBL_TIPO_CALC_EVALUACION_PK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-21 02:51:44 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
