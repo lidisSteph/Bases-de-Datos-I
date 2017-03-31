@@ -50,6 +50,18 @@
 <colAssociation fkAssociation="0D68788A-74C4-A589-3925-285BFA314897" referredColumn="AE58928D-C3F2-FAF6-773C-F3C1C5057E4F"/>
 </associations>
 </Column>
+<Column name="ID_MATRICULA" id="93DFA52A-A6F6-722F-0A58-20135E8664DD">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-03-31 01:08:55 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="7226531C-3296-E1A7-DE02-06AA1CCB3F6C" name="TBL_PARTICIPANTES_X_CURSOS_TBL_USUARIO_FK">
