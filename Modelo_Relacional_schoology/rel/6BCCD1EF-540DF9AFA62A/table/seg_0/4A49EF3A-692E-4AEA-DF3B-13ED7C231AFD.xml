@@ -122,18 +122,6 @@
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="PUNTAJE_OBTENIDO" id="90FE020C-B966-CF94-FD3B-0AE771F6E68D">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 03:53:22 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100</dataTypeSize>
-<ownDataTypeParameters>100,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="F110ACF1-7C4A-BEED-FF8B-442FBD2C3ADD" name="TBL_TAREAS_PK">

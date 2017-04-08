@@ -59,18 +59,6 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="B1DE3815-BB07-F9FA-1E09-7D512CCC7AE5" name="TBL_MENSAJES_PK">
-<createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:05:55 UTC</createdTime>
-<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
-<pk>true</pk>
-<indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="8D4D5830-1034-D6AC-9A56-E9940C5FC4B0"/>
-<colUsage columnID="7DE60A7B-0DA5-6179-A879-80F315F30003"/>
-</indexColumnUsage>
-</ind_PK_UK>
 <ind_PK_UK id="9D143187-9CBC-171E-F37D-AF76BF2A49F9" name="TBL_MENSAJES_TBL_USUARIO_FK">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-24 04:05:26 UTC</createdTime>
