@@ -18,6 +18,17 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_ACCESO" id="F7F4AA90-E7D2-2BBB-6B77-2678C85D7CD0">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-04-20 04:17:33 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="DESCRIPCION" id="721B39AE-96D5-2894-23A7-0EDD2D20C826">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-20 03:33:30 UTC</createdTime>
