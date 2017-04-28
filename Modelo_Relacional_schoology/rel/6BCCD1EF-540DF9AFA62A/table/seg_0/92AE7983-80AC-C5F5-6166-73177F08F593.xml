@@ -36,14 +36,29 @@
 <colAssociation fkAssociation="AFDDF7B5-2FD4-DA73-C44F-BBF537B533EA" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
 </associations>
 </Column>
-<Column name="FECHA_HORA_MENSAJE" id="A85C6DBE-2C02-D7CC-55FE-2E122DB63814">
+<Column name="CODIGO_ESTADO" id="7F8D656A-23DD-F819-F7F5-6DF30800F5C2">
 <createdBy>Marlon Calderón</createdBy>
-<createdTime>2017-02-24 04:05:17 UTC</createdTime>
+<createdTime>2017-04-28 00:48:23 UTC</createdTime>
 <ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D29F6901-83AD-64A7-666E-6159215A9131" referredColumn="FE26A449-6175-DEE6-362F-D6CA69792B52"/>
+</associations>
+</Column>
+<Column name="ASUNTO" id="FDB328F7-38CB-3651-05B0-1BF4619C3AE5">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-04-28 00:48:59 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="CONTENIDO_MENSAJE" id="33C0A64F-9A46-F37C-68E9-6F83D850D9A9">
@@ -55,6 +70,16 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>800</dataTypeSize>
 <ownDataTypeParameters>800,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_HORA_MENSAJE" id="A85C6DBE-2C02-D7CC-55FE-2E122DB63814">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-02-24 04:05:17 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>
@@ -77,6 +102,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="7DE60A7B-0DA5-6179-A879-80F315F30003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C016820D-34EB-4256-671E-40D3A66F0B32" name="TBL_MENSAJES_TBL_EST_MsjS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-04-28 00:48:23 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F8D656A-23DD-F819-F7F5-6DF30800F5C2"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
