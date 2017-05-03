@@ -18,6 +18,20 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="CODIGO_USUARIO" id="2A068CDA-0F7B-37D3-EBAC-50702219915F">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-05-03 19:46:38 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B091EACF-56F6-2AC2-2B57-728103F14E8F" referredColumn="A6E59EB3-BF8A-91A6-182C-30F892DF447F"/>
+</associations>
+</Column>
 <Column name="CODIGO_TAREA" id="3E9F9405-7B01-0FF0-CD47-A200945C6064">
 <createdBy>Marlon Calderón</createdBy>
 <createdTime>2017-02-23 05:08:46 UTC</createdTime>
@@ -202,6 +216,16 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="996DFD5F-EB35-E3FA-18BD-4485A6DC84F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5722A87C-4D1C-0BB9-907C-ED199FBBDA59" name="TBL_COMENT_TBL_USS_FK">
+<createdBy>Marlon Calderón</createdBy>
+<createdTime>2017-05-03 19:46:38 UTC</createdTime>
+<ownerDesignName>Modelo_Relacional_schoology</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A068CDA-0F7B-37D3-EBAC-50702219915F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
